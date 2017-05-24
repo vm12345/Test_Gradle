@@ -21,15 +21,14 @@ public class MyFirstTest {
     @Test
     public void MyFirstTest() {
         driver.get("http:/www.google.com");
-        driver.findElement(By.name("q")).sendKeys("Mucha");
+        driver.findElement(By.name("q")).sendKeys("webdriver");
         driver.findElement(By.name("btnG")).click();
-        wait.until(titleIs("Mucha - Поиск в Google"));
+        wait.until(titleIs("webdriver - Поиск в Google"));
     }
 
     @After
     public void stop() {
         driver.quit();
         driver = null;
-
     }
 }
