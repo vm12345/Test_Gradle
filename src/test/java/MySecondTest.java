@@ -1,4 +1,5 @@
 import org.junit.After;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -198,8 +199,19 @@ public class MySecondTest {
         driver.get("http://localhost/litecart/en/");
         List<WebElement> elements = driver.findElements(By.cssSelector("li.product"));
         List<WebElement> webElements = driver.findElements(By.cssSelector("div.sticker"));
+        Assert.assertTrue(hasSticker(elements));
         isEquals(elements, webElements);
 
+    }
+
+    private boolean hasSticker(List<WebElement> elements) {
+        for (WebElement webElement : elements) {
+            List<WebElement> webElements = webElement.findElements(By.cssSelector(".sticker"));
+            if (webElements.size() > 1) {
+                return false;
+            }
+        }
+        return true;
     }
 
     public boolean isEquals(List<WebElement> elements, List<WebElement> webElements) {
