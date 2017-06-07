@@ -8,6 +8,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -33,14 +34,26 @@ public class MyThirdTest {
     @Test
     public void checkCountries() {
         loginTest();
+        List<String> list = new ArrayList<>();
         driver.get("http://localhost/litecart/admin/?app=countries&doc=countries");
-        List<WebElement> webElementList = new ArrayList<>();
         WebElement element = driver.findElement(By.xpath(".//*[@id='content']/form/table/tbody"));
         for (WebElement webElement : element.findElements(By.cssSelector(".row>td>a"))) {
-            webElementList.add(webElement);
-            System.out.println(webElement.getAttribute("textContent"));
+            list.add(webElement.getAttribute("textContent"));
         }
+        List<String> temp = new ArrayList<>();
+        temp.addAll(list);
+//        list.remove(6);
+        System.out.println(list);
+        System.out.println(temp);
+        Collections.sort(list);
+//        Collections.sort(temp);
+        if (temp.equals(list)) {
+            System.out.println("Strings are the same");
+        } else System.out.println("WRONG");
     }
+
+    @Test
+    public void check(){}
 
     @After
     public void close() {
