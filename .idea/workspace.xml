@@ -35,6 +35,9 @@
         <task path="$PROJECT_DIR$/../Test_Gradle_Alena/build.gradle">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/../Test_Gradle_Alena">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <PATH>
@@ -60,11 +63,13 @@
       <file leaf-file-name="MyThirdTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MyThirdTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="561">
+              <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#start#0;class#MyThirdTest#0" expanded="false" />
                 <element signature="method#loginTest#0;class#MyThirdTest#0" expanded="false" />
+                <element signature="method#close#0;class#MyThirdTest#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -559,23 +564,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MySecondTest.checkStickers">
-    <configuration default="false" name="C:/Users/malinovskiyv/Downloads/Practice/Test_Gradle_Alena []" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/../Test_Gradle_Alena" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" value="" />
-      </ExternalSystemSettings>
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.MyThirdTest">
     <configuration default="false" name="MySecondTest.loginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="java-example_test" />
@@ -648,6 +637,27 @@
       <option name="MAIN_CLASS_NAME" value="MySecondTest" />
       <option name="METHOD_NAME" value="checkStickers" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="MyThirdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="java-example_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyThirdTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -985,19 +995,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Python.Test" />
       <item index="1" class="java.lang.String" itemvalue="Groovy.build (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Gradle.C:/Users/malinovskiyv/Downloads/Practice/Test_Gradle_Alena []" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MySecondTest.loginTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MySecondTest" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.MySecondTest.checkMenu" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.MySecondTest.checkStickers" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MySecondTest.loginTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MySecondTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MySecondTest.checkMenu" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.MySecondTest.checkStickers" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.MyThirdTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MySecondTest.checkStickers" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MySecondTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MySecondTest.checkMenu" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MySecondTest.loginTest" />
-        <item index="4" class="java.lang.String" itemvalue="Gradle.C:/Users/malinovskiyv/Downloads/Practice/Test_Gradle_Alena []" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MyThirdTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MySecondTest.checkStickers" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MySecondTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MySecondTest.checkMenu" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MySecondTest.loginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1040,39 +1050,46 @@
       <option name="project" value="LOCAL" />
       <updated>1496833614981</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Next commit">
+      <created>1496834194064</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1496834194064</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MySecondTest_checkMenu - 2017.06.06 at 13h 54m 33s.xml">
-      <configuration name="MySecondTest.checkMenu" configurationId="JUnit" />
+    <history-entry file="MyThirdTest - 2017.06.07 at 14h 20m 48s.xml">
+      <configuration name="MyThirdTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySecondTest_checkMenu - 2017.06.06 at 13h 55m 58s.xml">
-      <configuration name="MySecondTest.checkMenu" configurationId="JUnit" />
+    <history-entry file="MyThirdTest - 2017.06.07 at 14h 21m 09s.xml">
+      <configuration name="MyThirdTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySecondTest_checkMenu - 2017.06.06 at 13h 56m 29s.xml">
-      <configuration name="MySecondTest.checkMenu" configurationId="JUnit" />
+    <history-entry file="MyThirdTest - 2017.06.07 at 14h 22m 13s.xml">
+      <configuration name="MyThirdTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySecondTest_checkMenu - 2017.06.06 at 13h 56m 35s.xml">
-      <configuration name="MySecondTest.checkMenu" configurationId="JUnit" />
+    <history-entry file="MyThirdTest - 2017.06.07 at 14h 23m 18s.xml">
+      <configuration name="MyThirdTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySecondTest_checkMenu - 2017.06.06 at 13h 59m 29s.xml">
-      <configuration name="MySecondTest.checkMenu" configurationId="JUnit" />
+    <history-entry file="MyThirdTest - 2017.06.07 at 14h 25m 11s.xml">
+      <configuration name="MyThirdTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySecondTest_checkStickers - 2017.06.07 at 14h 05m 29s.xml">
-      <configuration name="MySecondTest.checkStickers" configurationId="JUnit" />
+    <history-entry file="MyThirdTest - 2017.06.07 at 14h 25m 39s.xml">
+      <configuration name="MyThirdTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySecondTest_checkStickers - 2017.06.07 at 14h 06m 02s.xml">
-      <configuration name="MySecondTest.checkStickers" configurationId="JUnit" />
+    <history-entry file="MyThirdTest - 2017.06.07 at 14h 25m 57s.xml">
+      <configuration name="MyThirdTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySecondTest_checkStickers - 2017.06.07 at 14h 14m 50s.xml">
-      <configuration name="MySecondTest.checkStickers" configurationId="JUnit" />
+    <history-entry file="MyThirdTest - 2017.06.07 at 14h 27m 31s.xml">
+      <configuration name="MyThirdTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySecondTest_checkStickers - 2017.06.07 at 14h 15m 21s.xml">
-      <configuration name="MySecondTest.checkStickers" configurationId="JUnit" />
+    <history-entry file="MyThirdTest - 2017.06.07 at 14h 28m 18s.xml">
+      <configuration name="MyThirdTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySecondTest_checkStickers - 2017.06.07 at 14h 16m 01s.xml">
-      <configuration name="MySecondTest.checkStickers" configurationId="JUnit" />
+    <history-entry file="MyThirdTest - 2017.06.07 at 14h 32m 10s.xml">
+      <configuration name="MyThirdTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1561,8 +1578,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MySecondTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
+        <state relative-caret-position="469">
+          <caret line="225" column="5" lean-forward="true" selection-start-line="221" selection-start-column="4" selection-end-line="225" selection-end-column="5" />
           <folding>
             <marker date="1496833555502" expanded="false" signature="7:371" ph="..." />
             <marker date="1496833555502" expanded="false" signature="502:645" ph="{...}" />
@@ -1588,18 +1605,20 @@
             <marker date="1496833555502" expanded="true" signature="10752:11081" ph="{...}" />
             <marker date="1496833555502" expanded="true" signature="11141:11410" ph="{...}" />
             <marker date="1496833555502" expanded="true" signature="11497:11595" ph="{...}" />
-            <marker date="1496833555502" expanded="false" signature="11632:11685" ph="{...}" />
+            <marker date="1496833555502" expanded="true" signature="11632:11685" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MyThirdTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="561">
+          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#start#0;class#MyThirdTest#0" expanded="false" />
             <element signature="method#loginTest#0;class#MyThirdTest#0" expanded="false" />
+            <element signature="method#close#0;class#MyThirdTest#0" expanded="false" />
           </folding>
         </state>
       </provider>
