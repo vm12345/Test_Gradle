@@ -58,28 +58,23 @@ public class MyThirdTest {
     @Test
     public void checkZones() {
         loginTest();
-        List<String> list = new ArrayList<>();
+        List<WebElement> list = new ArrayList<>();
         driver.get("http://localhost/litecart/admin/?app=countries&doc=countries");
-        WebElement element = driver.findElement(By.cssSelector(".dataTable>tbody"));
-        for (WebElement webElement : element.findElements(By.xpath("//*[@class='row']/td[6]"))) {
-            list.add(webElement.getAttribute("textContent"));
+        List<WebElement> elements = driver.findElements(By.cssSelector(".dataTable>tbody>.row"));
+        for (int i = 0; i < elements.size(); i++) {
+            if (!(elements.get(i).findElement(By.xpath(".//td[6]")).getAttribute("textContent")).equalsIgnoreCase("0"))
+                list.add(elements.get(i));
         }
-        System.out.println(list.size() + 1);
-        for (String s : list) {
-            int i = Integer.parseInt(s);
-            if (i > 0) {
-                element.findElement(By.xpath("//*[@class='row']/td[5]")).click();
-//                goToPage(element);
-            }
-
+        list.get(0).findElement(By.xpath(".//a")).click();
+        WebElement element = driver.findElement(By.cssSelector("#table-zones"));
+        List<String> strings = new ArrayList<>();
+        for (WebElement webElement : element.findElements(By.xpath(".//tr/td[3]"))) {
+            strings.add(webElement.getAttribute("textContent"));
+            System.out.println(webElement.getAttribute("textContent"));
         }
+        equalsLists(strings);
+        System.out.println(strings.size());
     }
-
-    private void goToPage(WebElement element) {
-        element.findElement(By.xpath("//*[@class='row']/td[5]")).click();
-        driver.findElement(By.xpath(".//*[@id='table-zones']"));
-    }
-
 
     @After
     public void close() {
