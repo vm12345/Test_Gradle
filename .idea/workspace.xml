@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="08d6d076-55ee-426e-b62c-022469a9c83b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/MyThirdTest.java" afterPath="$PROJECT_DIR$/src/test/java/MyThirdTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -1067,7 +1066,21 @@
       <option name="project" value="LOCAL" />
       <updated>1496910391163</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Next commit">
+      <created>1496930430782</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1496930430782</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Next commit">
+      <created>1496930454061</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1496930454061</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
