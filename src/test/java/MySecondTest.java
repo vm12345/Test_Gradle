@@ -207,7 +207,7 @@ public class MySecondTest {
     private boolean hasSticker(List<WebElement> elements) {
         for (WebElement webElement : elements) {
             List<WebElement> webElements = webElement.findElements(By.cssSelector(".sticker"));
-            if (webElements.size() > 1) {
+            if (webElements.size() == 0 || webElements.size() > 1) {
                 return false;
             }
         }

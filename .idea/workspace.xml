@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="08d6d076-55ee-426e-b62c-022469a9c83b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/MySecondTest.java" afterPath="$PROJECT_DIR$/src/test/java/MySecondTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -59,17 +60,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MyThirdTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/MyThirdTest.java">
+      <file leaf-file-name="MySecondTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/MySecondTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="724">
-              <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+            <state relative-caret-position="476">
+              <caret line="209" column="61" lean-forward="false" selection-start-line="209" selection-start-column="61" selection-end-line="209" selection-end-column="61" />
               <folding>
-                <element signature="method#start#0;class#MyThirdTest#0" expanded="false" />
-                <element signature="method#loginTest#0;class#MyThirdTest#0" expanded="false" />
-                <element signature="method#equalsLists#0;class#MyThirdTest#0" expanded="false" />
-                <element signature="e#1706#1731#0" expanded="false" />
-                <element signature="method#close#0;class#MyThirdTest#0" expanded="false" />
+                <element signature="method#start#0;class#MySecondTest#0" expanded="false" />
+                <element signature="method#loginTest#0;class#MySecondTest#0" expanded="false" />
+                <element signature="method#checkMenu#0;class#MySecondTest#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -462,8 +461,8 @@
         <option value="$PROJECT_DIR$/../Test_Gradle_Alena/src/test/java/ru/stqa/pft/addressbook/tests/ContactCreationTests.java" />
         <option value="$PROJECT_DIR$/../Test_Gradle_Alena/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/MysecondTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MySecondTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/MyThirdTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MySecondTest.java" />
       </list>
     </option>
   </component>
@@ -513,6 +512,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1080,7 +1087,14 @@
       <option name="project" value="LOCAL" />
       <updated>1496930454061</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Next commit">
+      <created>1496930472447</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1496930472447</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1579,40 +1593,6 @@
             <marker date="1495624451640" expanded="true" signature="17541:17699" ph="/**...*/" />
             <marker date="1495624451640" expanded="true" signature="17730:17808" ph="/**...*/" />
             <marker date="1495624451640" expanded="true" signature="17835:17915" ph="/**...*/" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MySecondTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="225" column="5" lean-forward="true" selection-start-line="221" selection-start-column="4" selection-end-line="225" selection-end-column="5" />
-          <folding>
-            <marker date="1496833555502" expanded="false" signature="7:371" ph="..." />
-            <marker date="1496833555502" expanded="false" signature="502:645" ph="{...}" />
-            <marker date="1496833555502" expanded="false" signature="685:993" ph="{...}" />
-            <marker date="1496833555502" expanded="false" signature="1033:10708" ph="{...}" />
-            <marker date="1496833555502" expanded="false" signature="1138:1585" ph="Apearence" />
-            <marker date="1496833555502" expanded="false" signature="1595:3139" ph="Catalog" />
-            <marker date="1496833555502" expanded="false" signature="3149:3377" ph="Countries" />
-            <marker date="1496833555502" expanded="false" signature="3387:3617" ph="Currencies" />
-            <marker date="1496833555502" expanded="false" signature="3627:4229" ph="Customers" />
-            <marker date="1496833555502" expanded="false" signature="4239:4467" ph="Geo Zones" />
-            <marker date="1496833555502" expanded="false" signature="4477:4943" ph="Laanguages" />
-            <marker date="1496833555502" expanded="false" signature="4953:6160" ph="Modules" />
-            <marker date="1496833555502" expanded="false" signature="6170:6622" ph="Orders" />
-            <marker date="1496833555502" expanded="false" signature="6632:6852" ph="Pages" />
-            <marker date="1496833555502" expanded="false" signature="6862:7513" ph="Reports" />
-            <marker date="1496833555502" expanded="false" signature="7523:8839" ph="Settings" />
-            <marker date="1496833555502" expanded="false" signature="8849:9072" ph="Slides" />
-            <marker date="1496833555502" expanded="false" signature="9082:9532" ph="Tax" />
-            <marker date="1496833555502" expanded="false" signature="9542:10166" ph="Transactions" />
-            <marker date="1496833555502" expanded="false" signature="10176:10396" ph="Uers" />
-            <marker date="1496833555502" expanded="false" signature="10406:10702" ph="vQmods" />
-            <marker date="1496833555502" expanded="true" signature="10752:11081" ph="{...}" />
-            <marker date="1496833555502" expanded="true" signature="11141:11410" ph="{...}" />
-            <marker date="1496833555502" expanded="true" signature="11497:11595" ph="{...}" />
-            <marker date="1496833555502" expanded="true" signature="11632:11685" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -2869,14 +2849,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MyThirdTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="724">
-          <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+        <state relative-caret-position="299">
+          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
           <folding>
-            <element signature="method#start#0;class#MyThirdTest#0" expanded="false" />
-            <element signature="method#loginTest#0;class#MyThirdTest#0" expanded="false" />
-            <element signature="method#equalsLists#0;class#MyThirdTest#0" expanded="false" />
-            <element signature="e#1706#1731#0" expanded="false" />
-            <element signature="method#close#0;class#MyThirdTest#0" expanded="false" />
+            <marker date="1496930353020" expanded="false" signature="7:404" ph="..." />
+            <marker date="1496930353020" expanded="false" signature="500:643" ph="{...}" />
+            <marker date="1496930353020" expanded="false" signature="673:981" ph="{...}" />
+            <marker date="1496930353020" expanded="true" signature="1026:1580" ph="{...}" />
+            <marker date="1496930353020" expanded="false" signature="1630:2017" ph="{...}" />
+            <marker date="1496930353020" expanded="false" signature="1706:1803" ph="//..." />
+            <marker date="1496930353020" expanded="true" signature="2058:3041" ph="{...}" />
+            <marker date="1496930353020" expanded="false" signature="3078:3131" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MySecondTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="209" column="61" lean-forward="false" selection-start-line="209" selection-start-column="61" selection-end-line="209" selection-end-column="61" />
+          <folding>
+            <element signature="method#start#0;class#MySecondTest#0" expanded="false" />
+            <element signature="method#loginTest#0;class#MySecondTest#0" expanded="false" />
+            <element signature="method#checkMenu#0;class#MySecondTest#0" expanded="false" />
           </folding>
         </state>
       </provider>
