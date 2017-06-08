@@ -12,9 +12,6 @@ import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created by malinovskiyv on 06.06.2017.
- */
 public class MyThirdTest {
     private WebDriver driver;
 
@@ -36,24 +33,53 @@ public class MyThirdTest {
         loginTest();
         List<String> list = new ArrayList<>();
         driver.get("http://localhost/litecart/admin/?app=countries&doc=countries");
-        WebElement element = driver.findElement(By.xpath(".//*[@id='content']/form/table/tbody"));
-        for (WebElement webElement : element.findElements(By.cssSelector(".row>td>a"))) {
+        WebElement element = driver.findElement(By.cssSelector(".dataTable>tbody"));
+        for (WebElement webElement : element.findElements(By.xpath("//*[@class='row']/td[5]"))) {
             list.add(webElement.getAttribute("textContent"));
+            System.out.println(webElement.getAttribute("textContent"));
         }
+        equalsLists(list);
+        System.out.println(list.size());
+    }
+
+    private void equalsLists(List<String> list) {
         List<String> temp = new ArrayList<>();
         temp.addAll(list);
 //        list.remove(6);
-        System.out.println(list);
-        System.out.println(temp);
+//        System.out.println(list);
+//        System.out.println(temp);
         Collections.sort(list);
 //        Collections.sort(temp);
         if (temp.equals(list)) {
-            System.out.println("Strings are the same");
-        } else System.out.println("WRONG");
+            System.out.println("Lists are equal");
+        } else System.out.println("Lists are not equal");
     }
 
     @Test
-    public void check(){}
+    public void checkZones() {
+        loginTest();
+        List<String> list = new ArrayList<>();
+        driver.get("http://localhost/litecart/admin/?app=countries&doc=countries");
+        WebElement element = driver.findElement(By.cssSelector(".dataTable>tbody"));
+        for (WebElement webElement : element.findElements(By.xpath("//*[@class='row']/td[6]"))) {
+            list.add(webElement.getAttribute("textContent"));
+        }
+        System.out.println(list.size() + 1);
+        for (String s : list) {
+            int i = Integer.parseInt(s);
+            if (i > 0) {
+                element.findElement(By.xpath("//*[@class='row']/td[5]")).click();
+//                goToPage(element);
+            }
+
+        }
+    }
+
+    private void goToPage(WebElement element) {
+        element.findElement(By.xpath("//*[@class='row']/td[5]")).click();
+        driver.findElement(By.xpath(".//*[@id='table-zones']"));
+    }
+
 
     @After
     public void close() {
