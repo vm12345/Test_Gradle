@@ -3,6 +3,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -30,8 +31,13 @@ public class MyFourthTest {
     @Test
     public void checkGoodies() {
         loginTest();
-        driver.findElement(By.xpath(""));
+        WebElement YellowDuck = driver.findElement(By.cssSelector("html/body/div[2]/div/div[2]/div/div[2]/div[2]/div[4]/div/ul/li/a[1]/div[2]"));
+        WebElement RegularPrice = driver.findElement(By.cssSelector("div#box-campaigns>s.regular-price"));
+        WebElement CampaignPrice = driver.findElement(By.cssSelector("#box-campaigns>strong.campaign-price"));
 
+        System.out.println(YellowDuck.getAttribute("textContent"));
+        System.out.println(RegularPrice.getCssValue("color"));
+        System.out.println(CampaignPrice.getCssValue("color"));
 
         System.out.println("WOW");
     }
