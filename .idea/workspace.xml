@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08d6d076-55ee-426e-b62c-022469a9c83b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/chrome/ChromeTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/firefox/MyFourthTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/MyFourthTest.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/MyThirdTest.java" afterPath="$PROJECT_DIR$/src/test/java/MyThirdTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -68,14 +66,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ChromeTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/chrome/ChromeTest.java">
+      <file leaf-file-name="MyThirdTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/MyThirdTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="940">
+              <caret line="100" column="0" lean-forward="true" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -467,13 +463,13 @@
         <option value="$PROJECT_DIR$/../Test_Gradle_Alena/src/test/java/ru/stqa/pft/addressbook/tests/ContactCreationTests.java" />
         <option value="$PROJECT_DIR$/../Test_Gradle_Alena/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/MysecondTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MyThirdTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/MySecondTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ChromeDriver.java" />
         <option value="$PROJECT_DIR$/src/test/java/ChromeTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/MyFourthTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/firefox/MyFourthTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/chrome/ChromeTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MyThirdTest.java" />
       </list>
     </option>
   </component>
@@ -484,10 +480,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="287" />
-    <option name="y" value="44" />
-    <option name="width" value="1603" />
-    <option name="height" value="1026" />
+    <option name="x" value="-9" />
+    <option name="y" value="29" />
+    <option name="width" value="1938" />
+    <option name="height" value="1060" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -630,70 +626,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ChromeTest (1)">
-    <configuration default="false" name="MyFourthTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="java-example_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyFourthTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="MyFourthTest.checkGoodies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="java-example_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MyFourthTest" />
-      <option name="METHOD_NAME" value="checkGoodies" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ChromeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="java-example_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ChromeTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.MyThirdTest">
     <configuration default="false" name="MyFourthTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -732,6 +665,69 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="chrome" />
       <option name="MAIN_CLASS_NAME" value="chrome.ChromeTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="MyThirdTest.checkCountries" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="java-example_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyThirdTest" />
+      <option name="METHOD_NAME" value="checkCountries" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="MyThirdTest.checkZones" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="java-example_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyThirdTest" />
+      <option name="METHOD_NAME" value="checkZones" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="MyThirdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="java-example_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyThirdTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1291,19 +1287,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Python.Test" />
       <item index="1" class="java.lang.String" itemvalue="Groovy.build (1)" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MyFourthTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MyFourthTest.checkGoodies" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ChromeTest" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.MyFourthTest (1)" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.ChromeTest (1)" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MyFourthTest (1)" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ChromeTest (1)" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MyThirdTest.checkCountries" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.MyThirdTest.checkZones" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.MyThirdTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ChromeTest (1)" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MyFourthTest (1)" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MyFourthTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ChromeTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.MyFourthTest.checkGoodies" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MyThirdTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MyThirdTest.checkZones" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ChromeTest (1)" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MyFourthTest (1)" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MyThirdTest.checkCountries" />
       </list>
     </recent_temporary>
   </component>
@@ -1328,7 +1324,7 @@
       <workItem from="1497039169798" duration="954000" />
       <workItem from="1497077600626" duration="85000" />
       <workItem from="1497126765361" duration="206000" />
-      <workItem from="1497127010371" duration="1193000" />
+      <workItem from="1497127010371" duration="3511000" />
     </task>
     <task id="LOCAL-00001" summary="Next commit">
       <created>1495782606748</created>
@@ -1421,43 +1417,50 @@
       <option name="project" value="LOCAL" />
       <updated>1497021041061</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Next commit">
+      <created>1497128221511</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1497128221511</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ChromeTest - 2017.06.10 at 23h 46m 14s.xml">
-      <configuration name="ChromeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ChromeTest_(1) - 2017.06.10 at 23h 51m 04s.xml">
+    <history-entry file="ChromeTest_(1) - 2017.06.11 at 00h 17m 37s.xml">
       <configuration name="ChromeTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ChromeTest_(1) - 2017.06.10 at 23h 54m 54s.xml">
+    <history-entry file="ChromeTest_(1) - 2017.06.11 at 00h 18m 03s.xml">
       <configuration name="ChromeTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyFourthTest - 2017.06.10 at 23h 38m 44s.xml">
-      <configuration name="MyFourthTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyFourthTest - 2017.06.10 at 23h 39m 39s.xml">
-      <configuration name="MyFourthTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyFourthTest - 2017.06.10 at 23h 46m 40s.xml">
-      <configuration name="MyFourthTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyFourthTest_(1) - 2017.06.10 at 23h 48m 42s.xml">
+    <history-entry file="MyFourthTest_(1) - 2017.06.11 at 00h 17m 22s.xml">
       <configuration name="MyFourthTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyFourthTest_(1) - 2017.06.10 at 23h 49m 20s.xml">
-      <configuration name="MyFourthTest (1)" configurationId="JUnit" />
+    <history-entry file="MyThirdTest - 2017.06.11 at 00h 27m 25s.xml">
+      <configuration name="MyThirdTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyFourthTest_(1) - 2017.06.10 at 23h 49m 50s.xml">
-      <configuration name="MyFourthTest (1)" configurationId="JUnit" />
+    <history-entry file="MyThirdTest - 2017.06.11 at 00h 32m 05s.xml">
+      <configuration name="MyThirdTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyFourthTest_(1) - 2017.06.10 at 23h 50m 45s.xml">
-      <configuration name="MyFourthTest (1)" configurationId="JUnit" />
+    <history-entry file="MyThirdTest - 2017.06.11 at 00h 34m 08s.xml">
+      <configuration name="MyThirdTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyThirdTest_checkZones - 2017.06.11 at 00h 15m 22s.xml">
+      <configuration name="MyThirdTest.checkZones" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyThirdTest_checkZones - 2017.06.11 at 00h 16m 21s.xml">
+      <configuration name="MyThirdTest.checkZones" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyThirdTest_checkZones - 2017.06.11 at 00h 18m 36s.xml">
+      <configuration name="MyThirdTest.checkZones" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyThirdTest_checkZones - 2017.06.11 at 00h 21m 13s.xml">
+      <configuration name="MyThirdTest.checkZones" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10904000" />
+    <option name="totallyTimeSpent" value="13222000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1469,7 +1472,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="287" y="44" width="1603" height="1026" extended-state="0" />
+    <frame x="-9" y="29" width="1938" height="1060" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1482,17 +1485,17 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15684775" sideWeight="0.4938918" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45416227" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4384537" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21210013" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25334707" sideWeight="0.49791667" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2533062" sideWeight="0.49791667" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4236038" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32858595" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4231943" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23785488" sideWeight="0.4938918" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19635417" sideWeight="0.4938918" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21045485" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1690,13 +1693,6 @@
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/3.4.0/1a0347cf7295dc29ea2087568037e69e83079c81/selenium-api-3.4.0-sources.jar!/org/openqa/selenium/WebElement.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/MyThirdTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MySecondTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -1715,7 +1711,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/firefox/MyFourthTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
-          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
           <folding>
             <marker date="1497127776816" expanded="true" signature="24:418" ph="..." />
             <marker date="1497127776816" expanded="true" signature="420:469" ph="/**...*/" />
@@ -1728,11 +1724,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/chrome/ChromeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
+        <state relative-caret-position="336">
           <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1497127859100" expanded="true" signature="23:360" ph="..." />
+            <marker date="1497127859100" expanded="true" signature="362:405" ph="/**...*/" />
+            <marker date="1497127859100" expanded="true" signature="531:621" ph="{...}" />
+            <marker date="1497127859100" expanded="true" signature="665:2101" ph="{...}" />
+            <marker date="1497127859100" expanded="true" signature="2139:2194" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MyThirdTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="940">
+          <caret line="100" column="0" lean-forward="true" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

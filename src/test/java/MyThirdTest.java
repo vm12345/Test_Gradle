@@ -58,6 +58,15 @@ public class MyThirdTest {
     @Test
     public void checkZones() {
         loginTest();
+        List<WebElement> list = findElements();
+        for (int i = 0; i < list.size(); i++) {
+            GetFirstElement(list, i);
+            list = findElements();
+
+        }
+    }
+
+    private List<WebElement> findElements() {
         List<WebElement> list = new ArrayList<>();
         driver.get("http://localhost/litecart/admin/?app=countries&doc=countries");
         List<WebElement> elements = driver.findElements(By.cssSelector(".dataTable>tbody>.row"));
@@ -65,16 +74,23 @@ public class MyThirdTest {
             if (!(elements.get(i).findElement(By.xpath(".//td[6]")).getAttribute("textContent")).equalsIgnoreCase("0"))
                 list.add(elements.get(i));
         }
-        list.get(0).findElement(By.xpath(".//a")).click();
+        return list;
+    }
+
+    private void GetFirstElement(List<WebElement> list, int i) {
+        list.get(i).findElement(By.xpath(".//a")).click();
         WebElement element = driver.findElement(By.cssSelector("#table-zones"));
         List<String> strings = new ArrayList<>();
+
         for (WebElement webElement : element.findElements(By.xpath(".//tr/td[3]"))) {
             strings.add(webElement.getAttribute("textContent"));
             System.out.println(webElement.getAttribute("textContent"));
         }
         equalsLists(strings);
         System.out.println(strings.size());
+        driver.get("http://localhost/litecart/admin/?app=countries&doc=countries");
     }
+
 
     @After
     public void close() {
