@@ -35,8 +35,10 @@ public class ChromeTest {
         String textContent = element4.getAttribute("textContent");
         String color = element5.getCssValue("color");
         String color1 = element6.getCssValue("color");
+        System.out.println(element5.getCssValue("text-decoration"));
+        element6.getCssValue("font-weight").contentEquals("bolder");
+
         element.findElement(By.cssSelector(".link")).click();
-        System.out.println("WOW");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         WebElement element1 = driver.findElement(By.cssSelector("#box-product>div>h1.title"));
         WebElement element2 = driver.findElement(By.cssSelector("div.content div.price-wrapper s.regular-price"));
@@ -44,7 +46,8 @@ public class ChromeTest {
         String textContent1 = element1.getAttribute("textContent");
         String color2 = element2.getCssValue("color");
         String color3 = element3.getCssValue("color");
-        System.out.println("WOW");
+        System.out.println(element2.getCssValue("text-decoration"));
+        element3.getCssValue("font-size").contentEquals("bolder");
         Assert.assertEquals(textContent, textContent1);
         Assert.assertNotEquals(color, color2);
         Assert.assertEquals(color1, color3);
