@@ -1,4 +1,5 @@
 package chrome;
+
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -26,7 +27,7 @@ public class ChromeTest {
 
 
     @Test
-    public void checkGoodies() {
+    public void checkGoodiesChrome() {
         driver.get("http://localhost/litecart/en/");
         WebElement element = driver.findElement(By.cssSelector("div#box-campaigns.box"));
         WebElement element4 = element.findElement(By.cssSelector(".name"));
@@ -47,11 +48,10 @@ public class ChromeTest {
         String color2 = element2.getCssValue("color");
         String color3 = element3.getCssValue("color");
         System.out.println(element2.getCssValue("text-decoration"));
-        element3.getCssValue("font-size").contentEquals("bolder");
+        Assert.assertTrue(element3.getCssValue("text-decoration-style").contentEquals("solid"));
         Assert.assertEquals(textContent, textContent1);
         Assert.assertNotEquals(color, color2);
         Assert.assertEquals(color1, color3);
-
     }
 
 

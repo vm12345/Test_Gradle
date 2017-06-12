@@ -16,7 +16,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * Created by malinovskiyv on 08.06.2017.
  */
-public class MyFourthTest {
+public class FireFoxTest {
     private WebDriver driver;
     private WebDriverWait wait;
 
@@ -49,7 +49,7 @@ public class MyFourthTest {
         String color2 = element2.getCssValue("color");
         String color3 = element3.getCssValue("color");
         System.out.println(element2.getCssValue("text-decoration"));
-        element3.getCssValue("font-size").contentEquals("bolder");
+        Assert.assertTrue(element3.getCssValue("text-decoration-style").contentEquals("solid"));
         Assert.assertEquals(textContent, textContent1);
         Assert.assertNotEquals(color, color2);
         Assert.assertEquals(color1, color3);
