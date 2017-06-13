@@ -22,16 +22,8 @@ public class MyFifthTest {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
-    public void loginTest() {
-        driver.get("http://localhost/litecart/admin");
-        driver.findElement(By.cssSelector("input[name=username]")).sendKeys("admin");
-        driver.findElement(By.cssSelector("input[name=password]")).sendKeys("admin");
-        driver.findElement(By.cssSelector("button[name=login]")).click();
-    }
-
     @Test
     public void checkCreateAccount() {
-        loginTest();
         driver.get("http://localhost/litecart/create_account");
         WebElement element = driver.findElement(By.cssSelector("form[name=customer_form]>table"));
         StringBuilder randString = getStringBuilder();
@@ -39,7 +31,6 @@ public class MyFifthTest {
         for (int i = 0; i < tdRequired.size() - 3; i++) tdRequired.get(i).sendKeys(randString);
         tdRequired.get(tdRequired.size() - 3).sendKeys(String.valueOf(100000 + (int) (Math.random() * 999999)));
         tdRequired.get(tdRequired.size() - 2).sendKeys(randString);
-        WebElement webElement = element.findElement(By.cssSelector(".content>form>table>tbody>tr>td>span.select2-selection__arrow"));
     }
 
     private StringBuilder getStringBuilder() {
