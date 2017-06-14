@@ -60,8 +60,8 @@
       <file leaf-file-name="MyFifthTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MyFifthTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="46" column="57" lean-forward="true" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
+            <state relative-caret-position="515">
+              <caret line="67" column="86" lean-forward="true" selection-start-line="67" selection-start-column="86" selection-end-line="67" selection-end-column="86" />
               <folding>
                 <element signature="docComment;class#MyFifthTest#0" expanded="false" />
                 <element signature="method#getStringBuilder#0;class#MyFifthTest#0" expanded="false" />
@@ -469,8 +469,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="411" />
-    <option name="y" value="176" />
+    <option name="x" value="762" />
+    <option name="y" value="170" />
     <option name="width" value="1118" />
     <option name="height" value="890" />
   </component>
@@ -1109,38 +1109,45 @@
       <option name="project" value="LOCAL" />
       <updated>1497021041061</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Next commit">
+      <created>1497444206823</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1497444206823</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyFifthTest_checkCreateAccount - 2017.06.14 at 14h 33m 17s.xml">
+    <history-entry file="MyFifthTest_checkCreateAccount - 2017.06.14 at 18h 26m 18s.xml">
       <configuration name="MyFifthTest.checkCreateAccount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyFifthTest_checkCreateAccount - 2017.06.14 at 14h 34m 46s.xml">
+    <history-entry file="MyFifthTest_checkCreateAccount - 2017.06.14 at 18h 31m 22s.xml">
       <configuration name="MyFifthTest.checkCreateAccount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyFifthTest_checkCreateAccount - 2017.06.14 at 15h 13m 19s.xml">
+    <history-entry file="MyFifthTest_checkCreateAccount - 2017.06.14 at 18h 32m 08s.xml">
       <configuration name="MyFifthTest.checkCreateAccount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyFifthTest_checkCreateAccount - 2017.06.14 at 15h 13m 42s.xml">
+    <history-entry file="MyFifthTest_checkCreateAccount - 2017.06.14 at 18h 32m 25s.xml">
       <configuration name="MyFifthTest.checkCreateAccount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyFifthTest_checkCreateAccount - 2017.06.14 at 15h 19m 49s.xml">
+    <history-entry file="MyFifthTest_checkCreateAccount - 2017.06.14 at 18h 34m 39s.xml">
       <configuration name="MyFifthTest.checkCreateAccount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyFifthTest_checkCreateAccount - 2017.06.14 at 15h 22m 32s.xml">
+    <history-entry file="MyFifthTest_checkCreateAccount - 2017.06.14 at 18h 36m 36s.xml">
       <configuration name="MyFifthTest.checkCreateAccount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyFifthTest_checkCreateAccount - 2017.06.14 at 15h 33m 39s.xml">
+    <history-entry file="MyFifthTest_checkCreateAccount - 2017.06.14 at 18h 37m 03s.xml">
       <configuration name="MyFifthTest.checkCreateAccount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyFifthTest_checkCreateAccount - 2017.06.14 at 15h 34m 23s.xml">
+    <history-entry file="MyFifthTest_checkCreateAccount - 2017.06.14 at 18h 37m 36s.xml">
       <configuration name="MyFifthTest.checkCreateAccount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyFifthTest_checkCreateAccount - 2017.06.14 at 15h 39m 37s.xml">
+    <history-entry file="MyFifthTest_checkCreateAccount - 2017.06.14 at 18h 38m 04s.xml">
       <configuration name="MyFifthTest.checkCreateAccount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyFifthTest_checkCreateAccount - 2017.06.14 at 15h 40m 02s.xml">
+    <history-entry file="MyFifthTest_checkCreateAccount - 2017.06.14 at 18h 42m 27s.xml">
       <configuration name="MyFifthTest.checkCreateAccount" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -1154,8 +1161,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="411" y="176" width="1118" height="890" extended-state="0" />
-    <editor active="true" />
+    <frame x="762" y="170" width="1118" height="890" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1166,7 +1172,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971016" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32971016" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.397343" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1679,63 +1685,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="162" column="14" lean-forward="false" selection-start-line="162" selection-start-column="14" selection-end-line="162" selection-end-column="14" />
-          <folding>
-            <marker date="1495624451640" expanded="false" signature="0:802" ph="/.../" />
-            <marker date="1495624451640" expanded="false" signature="841:920" ph="..." />
-            <marker date="1495624451640" expanded="true" signature="1259:1706" ph="/**...*/" />
-            <marker date="1495624451640" expanded="false" signature="1775:1782" ph=" { " />
-            <marker date="1495624451640" expanded="false" signature="1820:1824" ph=" }" />
-            <marker date="1495624451640" expanded="true" signature="1828:2315" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="2400:2457" ph="{...}" />
-            <marker date="1495624451640" expanded="true" signature="2461:2944" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="3063:3130" ph="{...}" />
-            <marker date="1495624451640" expanded="true" signature="3134:3668" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="3797:4241" ph="{...}" />
-            <marker date="1495624451640" expanded="true" signature="4245:4423" ph="/**...*/" />
-            <marker date="1495624451640" expanded="false" signature="4466:4473" ph=" { " />
-            <marker date="1495624451640" expanded="false" signature="4502:4506" ph=" }" />
-            <marker date="1495624451640" expanded="true" signature="4510:4662" ph="/**...*/" />
-            <marker date="1495624451640" expanded="false" signature="4718:4725" ph=" { " />
-            <marker date="1495624451640" expanded="false" signature="4755:4759" ph=" }" />
-            <marker date="1495624451640" expanded="false" signature="4786:4793" ph=" { " />
-            <marker date="1495624451640" expanded="false" signature="4805:4809" ph=" }" />
-            <marker date="1495624451640" expanded="false" signature="4837:4844" ph=" { " />
-            <marker date="1495624451640" expanded="false" signature="4857:4861" ph=" }" />
-            <marker date="1495624451640" expanded="false" signature="4890:4897" ph=" { " />
-            <marker date="1495624451640" expanded="false" signature="4911:4915" ph=" }" />
-            <marker date="1495624451640" expanded="false" signature="4942:4949" ph=" { " />
-            <marker date="1495624451640" expanded="false" signature="4961:4965" ph=" }" />
-            <marker date="1495624451640" expanded="false" signature="4994:5001" ph=" { " />
-            <marker date="1495624451640" expanded="false" signature="5017:5021" ph=" }" />
-            <marker date="1495624451640" expanded="false" signature="5052:5059" ph=" { " />
-            <marker date="1495624451640" expanded="false" signature="5077:5081" ph=" }" />
-            <marker date="1495624451640" expanded="false" signature="5108:5115" ph=" { " />
-            <marker date="1495624451640" expanded="false" signature="5129:5133" ph=" }" />
-            <marker date="1495624451640" expanded="false" signature="5183:5190" ph=" { " />
-            <marker date="1495624451640" expanded="false" signature="5244:5248" ph=" }" />
-            <marker date="1495624451640" expanded="true" signature="5275:5779" ph="{...}" />
-            <marker date="1495624451640" expanded="true" signature="5820:6147" ph="{...}" />
-            <marker date="1495624451640" expanded="true" signature="6151:6215" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="6262:6552" ph="{...}" />
-            <marker date="1495624451640" expanded="false" signature="6589:6596" ph=" { " />
-            <marker date="1495624451640" expanded="false" signature="6619:6623" ph=" }" />
-            <marker date="1495624451640" expanded="false" signature="6655:7576" ph="{...}" />
-            <marker date="1495624451640" expanded="true" signature="6903:6960" ph="{...}" />
-            <marker date="1495624451640" expanded="true" signature="7001:7064" ph="{...}" />
-            <marker date="1495624451640" expanded="true" signature="7103:7153" ph="{...}" />
-            <marker date="1495624451640" expanded="true" signature="7197:7251" ph="{...}" />
-            <marker date="1495624451640" expanded="true" signature="7297:7351" ph="{...}" />
-            <marker date="1495624451640" expanded="true" signature="7401:7459" ph="{...}" />
-            <marker date="1495624451640" expanded="false" signature="7486:7495" ph=" { " />
-            <marker date="1495624451640" expanded="false" signature="7566:7572" ph=" }" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MyFifthTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="46" column="57" lean-forward="true" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
+        <state relative-caret-position="515">
+          <caret line="67" column="86" lean-forward="true" selection-start-line="67" selection-start-column="86" selection-end-line="67" selection-end-column="86" />
           <folding>
             <element signature="docComment;class#MyFifthTest#0" expanded="false" />
             <element signature="method#getStringBuilder#0;class#MyFifthTest#0" expanded="false" />

@@ -1,6 +1,7 @@
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -33,7 +34,7 @@ public class MyFifthTest {
         StringBuilder randString = getStringBuilder();
         List<WebElement> tdRequired = element.findElements(By.cssSelector("td>input[type=text]"));
         for (int i = 0; i < tdRequired.size() - 3; i++) tdRequired.get(i).sendKeys(randString);
-        tdRequired.get(tdRequired.size() - 3).sendKeys(String.valueOf(10000 + (int) (Math.random() * 99999)));
+        tdRequired.get(tdRequired.size() - 3).sendKeys(String.valueOf(10000 + (int) (Math.random() * 10000)));
         tdRequired.get(tdRequired.size() - 2).sendKeys(randString);
         System.out.println("WOW");
         Select select = new Select(element.findElement(By.cssSelector(".select2-hidden-accessible")));
@@ -47,7 +48,10 @@ public class MyFifthTest {
         element.findElement(By.cssSelector("input[name=phone")).sendKeys("+7" + (int) floor);
         element.findElement(By.cssSelector("input[name=password]")).sendKeys(randString);
         element.findElement(By.cssSelector("input[name=confirmed_password]")).sendKeys(randString);
-        System.out.println(element.findElement(By.cssSelector("input[name=captcha_id]")).getAttribute("innerText"));
+        WebElement captcha = element.findElement(By.cssSelector("input[name=captcha]"));
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].setAttribute('value','1234');", captcha);
+        System.out.println("WOW");
     }
 
     private StringBuilder getStringBuilder() {
