@@ -31,6 +31,10 @@ public class MyFifthTest {
         for (int i = 0; i < tdRequired.size() - 3; i++) tdRequired.get(i).sendKeys(randString);
         tdRequired.get(tdRequired.size() - 3).sendKeys(String.valueOf(100000 + (int) (Math.random() * 999999)));
         tdRequired.get(tdRequired.size() - 2).sendKeys(randString);
+        WebElement element1 = element.findElement(By.cssSelector("span.selection"));
+        element1.click();
+        driver.findElement(By.cssSelector("input[type=search]"));
+        System.out.println("WOW");
     }
 
     private StringBuilder getStringBuilder() {
