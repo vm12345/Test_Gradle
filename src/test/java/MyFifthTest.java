@@ -48,9 +48,16 @@ public class MyFifthTest {
         element.findElement(By.cssSelector("input[name=phone")).sendKeys("+7" + (int) floor);
         element.findElement(By.cssSelector("input[name=password]")).sendKeys(randString);
         element.findElement(By.cssSelector("input[name=confirmed_password]")).sendKeys(randString);
+        WebElement img = element.findElement(By.cssSelector("img"));
         WebElement captcha = element.findElement(By.cssSelector("input[name=captcha]"));
         JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].setAttribute('valid','false')", img);
+        js.executeScript("arguments[0].setAttribute('willValidate','false')", img);
         js.executeScript("arguments[0].setAttribute('value','1234');", captcha);
+        System.out.println("WOW");
+        WebElement button = element.findElement(By.cssSelector("button[name=create_account]"));
+        js.executeScript("arguments[0].setAttribute('valid','false')", button);
+        button.click();
         System.out.println("WOW");
     }
 
@@ -63,7 +70,7 @@ public class MyFifthTest {
         return randString;
     }
 
-    //    @After
+//    @After
     public void close() {
         driver.close();
         driver = null;
