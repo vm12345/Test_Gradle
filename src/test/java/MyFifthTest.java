@@ -1,7 +1,7 @@
-import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -19,8 +19,6 @@ import java.util.concurrent.TimeUnit;
 public class MyFifthTest {
     private WebDriver driver;
     private WebDriverWait wait;
-    private String email;
-    private StringBuilder randString;
 
     @Before
     public void start() {
@@ -32,33 +30,28 @@ public class MyFifthTest {
     @Test
     public void checkCreateAccount() {
         driver.get("http://localhost/litecart/create_account");
-        createAccount();
-        driver.get("http://localhost/litecart/en/logout");
-        driver.findElement(By.cssSelector("input[name=email]")).sendKeys(email);
-        driver.findElement(By.cssSelector("input[name=password]")).sendKeys(randString);
-        driver.findElement(By.cssSelector("button[name=login]")).click();
-    }
-
-    private void createAccount() {
         WebElement element = driver.findElement(By.cssSelector("form[name=customer_form]>table"));
-        randString = getStringBuilder();
+        StringBuilder randString = getStringBuilder();
         List<WebElement> tdRequired = element.findElements(By.cssSelector("td>input[type=text]"));
-        for (int i = 0; i < tdRequired.size() - 2; i++) tdRequired.get(i).sendKeys(randString);
-        tdRequired.get(tdRequired.size() - 1).sendKeys(randString);
+        for (int i = 0; i < tdRequired.size() - 3; i++) tdRequired.get(i).sendKeys(randString);
+        tdRequired.get(tdRequired.size() - 3).sendKeys(String.valueOf(10000 + (int) (Math.random() * 10000)));
+        tdRequired.get(tdRequired.size() - 2).sendKeys(randString);
+        System.out.println("WOW");
         Select select = new Select(element.findElement(By.cssSelector(".select2-hidden-accessible")));
         select.selectByVisibleText("United States");
-        driver.findElement(By.xpath(".//*[@id='create-account']/div/form/table/tbody/tr[5]/td[2]/select"));
+        wait.until(driver -> driver.findElement(By.xpath(".//*[@id='create-account']/div/form/table/tbody/tr[5]/td[2]/select")));
         select = new Select(driver.findElement(By.xpath(".//*[@id='create-account']/div/form/table/tbody/tr[5]/td[2]/select")));
         select.selectByValue("WA");
-        tdRequired.get(tdRequired.size() - 2).sendKeys(String.valueOf(10000 + (int) (Math.random() * 10000)));
-        email = UUID.randomUUID().toString() + "@gmail.com";
-        element.findElement(By.cssSelector("input[name=email]")).sendKeys(email);
+        String randomEmail = UUID.randomUUID().toString() + "@gmail.com";
+        element.findElement(By.cssSelector("input[name=email]")).sendKeys(randomEmail);
         double floor = Math.floor(Math.random() * 1000000000);
         element.findElement(By.cssSelector("input[name=phone")).sendKeys("+7" + (int) floor);
         element.findElement(By.cssSelector("input[name=password]")).sendKeys(randString);
         element.findElement(By.cssSelector("input[name=confirmed_password]")).sendKeys(randString);
-        WebElement button = element.findElement(By.cssSelector("button"));
-        button.click();
+        WebElement captcha = element.findElement(By.cssSelector("input[name=captcha]"));
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("arguments[0].setAttribute('value','1234');", captcha);
+        System.out.println("WOW");
     }
 
     private StringBuilder getStringBuilder() {
@@ -70,7 +63,7 @@ public class MyFifthTest {
         return randString;
     }
 
-    @After
+    //    @After
     public void close() {
         driver.close();
         driver = null;
