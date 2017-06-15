@@ -60,10 +60,10 @@
       <file leaf-file-name="MyFifthTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MyFifthTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="67" column="86" lean-forward="true" selection-start-line="67" selection-start-column="86" selection-end-line="67" selection-end-column="86" />
+            <state relative-caret-position="580">
+              <caret line="62" column="56" lean-forward="true" selection-start-line="62" selection-start-column="56" selection-end-line="62" selection-end-column="56" />
               <folding>
-                <element signature="docComment;class#MyFifthTest#0" expanded="false" />
+                <element signature="method#createAccount#0;class#MyFifthTest#0" expanded="false" />
                 <element signature="method#getStringBuilder#0;class#MyFifthTest#0" expanded="false" />
               </folding>
             </state>
@@ -469,8 +469,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="762" />
-    <option name="y" value="170" />
+    <option name="x" value="570" />
+    <option name="y" value="179" />
     <option name="width" value="1118" />
     <option name="height" value="890" />
   </component>
@@ -1116,38 +1116,45 @@
       <option name="project" value="LOCAL" />
       <updated>1497444206823</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Next commit">
+      <created>1497455024485</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1497455024485</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyFifthTest_checkCreateAccount - 2017.06.14 at 18h 26m 18s.xml">
+    <history-entry file="MyFifthTest_checkCreateAccount - 2017.06.15 at 13h 44m 44s.xml">
       <configuration name="MyFifthTest.checkCreateAccount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyFifthTest_checkCreateAccount - 2017.06.14 at 18h 31m 22s.xml">
+    <history-entry file="MyFifthTest_checkCreateAccount - 2017.06.15 at 13h 45m 45s.xml">
       <configuration name="MyFifthTest.checkCreateAccount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyFifthTest_checkCreateAccount - 2017.06.14 at 18h 32m 08s.xml">
+    <history-entry file="MyFifthTest_checkCreateAccount - 2017.06.15 at 13h 45m 58s.xml">
       <configuration name="MyFifthTest.checkCreateAccount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyFifthTest_checkCreateAccount - 2017.06.14 at 18h 32m 25s.xml">
+    <history-entry file="MyFifthTest_checkCreateAccount - 2017.06.15 at 13h 46m 24s.xml">
       <configuration name="MyFifthTest.checkCreateAccount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyFifthTest_checkCreateAccount - 2017.06.14 at 18h 34m 39s.xml">
+    <history-entry file="MyFifthTest_checkCreateAccount - 2017.06.15 at 13h 46m 49s.xml">
       <configuration name="MyFifthTest.checkCreateAccount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyFifthTest_checkCreateAccount - 2017.06.14 at 18h 36m 36s.xml">
+    <history-entry file="MyFifthTest_checkCreateAccount - 2017.06.15 at 13h 47m 36s.xml">
       <configuration name="MyFifthTest.checkCreateAccount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyFifthTest_checkCreateAccount - 2017.06.14 at 18h 37m 03s.xml">
+    <history-entry file="MyFifthTest_checkCreateAccount - 2017.06.15 at 13h 48m 43s.xml">
       <configuration name="MyFifthTest.checkCreateAccount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyFifthTest_checkCreateAccount - 2017.06.14 at 18h 37m 36s.xml">
+    <history-entry file="MyFifthTest_checkCreateAccount - 2017.06.15 at 13h 50m 21s.xml">
       <configuration name="MyFifthTest.checkCreateAccount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyFifthTest_checkCreateAccount - 2017.06.14 at 18h 38m 04s.xml">
+    <history-entry file="MyFifthTest_checkCreateAccount - 2017.06.15 at 13h 50m 50s.xml">
       <configuration name="MyFifthTest.checkCreateAccount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyFifthTest_checkCreateAccount - 2017.06.14 at 18h 42m 27s.xml">
+    <history-entry file="MyFifthTest_checkCreateAccount - 2017.06.15 at 13h 51m 09s.xml">
       <configuration name="MyFifthTest.checkCreateAccount" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -1161,7 +1168,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="170" width="1118" height="890" extended-state="0" />
+    <frame x="570" y="179" width="1118" height="890" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1172,7 +1180,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32971016" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971016" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.397343" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1690,10 +1698,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MyFifthTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="67" column="86" lean-forward="true" selection-start-line="67" selection-start-column="86" selection-end-line="67" selection-end-column="86" />
+        <state relative-caret-position="580">
+          <caret line="62" column="56" lean-forward="true" selection-start-line="62" selection-start-column="56" selection-end-line="62" selection-end-column="56" />
           <folding>
-            <element signature="docComment;class#MyFifthTest#0" expanded="false" />
+            <element signature="method#createAccount#0;class#MyFifthTest#0" expanded="false" />
             <element signature="method#getStringBuilder#0;class#MyFifthTest#0" expanded="false" />
           </folding>
         </state>
