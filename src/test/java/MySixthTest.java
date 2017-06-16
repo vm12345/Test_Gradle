@@ -1,3 +1,4 @@
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -46,9 +47,11 @@ public class MySixthTest {
         actions.moveToElement(elements.get(14).findElement(By.xpath(".//input[@name='quantity']"))).click().sendKeys("999").perform();
         Select select = new Select(elements.get(14).findElement(By.xpath(".//td/table/tbody/tr/td[4]/select")));
         select.selectByValue("2");
-
-System.out.println(elements.get(14).getText());
-
+        String workingDir = System.getProperty("user.dir");
+        String filepath = workingDir + "\\src\\test\\java\\black-rubber-duck.jpg";
+        elements.get(16).findElement(By.xpath(".//input[@type='file']")).sendKeys(filepath);
+        actions.moveToElement(elements.get(19).findElement(By.xpath(".//input[@name='date_valid_from']"))).click().sendKeys("1991-12-12").perform();
+        actions.moveToElement(elements.get(20).findElement(By.xpath(".//input[@name='date_valid_to']"))).click().sendKeys("1991-12-12").perform();
     }
 
     private void loginTest() {
@@ -58,7 +61,16 @@ System.out.println(elements.get(14).getText());
         driver.findElement(By.cssSelector("button[name=login]")).click();
     }
 
-//    @After
+    //    @Test
+    public void checktextContent() {
+        loginTest();
+        driver.get("http://localhost/litecart/admin/?category_id=0&app=catalog&doc=edit_product");
+        driverElement = driver.findElement(By.xpath("//div[@id='tab-general']/table/tbody"));
+        List<WebElement> elements = driverElement.findElements(By.xpath(".//tr"));
+        System.out.println(elements.get(16).getText());
+    }
+
+    @After
     public void close() {
         driver.close();
         driver = null;
