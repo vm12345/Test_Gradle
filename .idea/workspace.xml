@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08d6d076-55ee-426e-b62c-022469a9c83b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/MySixthTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/MySixthTest.java" afterPath="$PROJECT_DIR$/src/test/java/MySixthTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -60,8 +60,8 @@
       <file leaf-file-name="MySixthTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MySixthTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="60" column="45" lean-forward="true" selection-start-line="60" selection-start-column="45" selection-end-line="60" selection-end-column="45" />
+            <state relative-caret-position="522">
+              <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#loginTest#0;class#MySixthTest#0" expanded="false" />
@@ -103,7 +103,7 @@
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="C:\Users\malinovskiyv\.gradle\wrapper\dists\gradle-3.3-all\55gk2rcmfc6p2dg9u9ohc3hw9\gradle-3.3" />
+        <entry key="$PROJECT_DIR$" value="C:\Users\Vitaliy\.gradle\wrapper\dists\gradle-3.3-all\55gk2rcmfc6p2dg9u9ohc3hw9\gradle-3.3" />
       </map>
     </option>
     <option name="myGradleVersions">
@@ -278,7 +278,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4486898357063" />
+        <entry key="$PROJECT_DIR$" value="4491747720320" />
         <entry key="$PROJECT_DIR$/build.gradle" value="635940082" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="829777938" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="2313315599" />
@@ -475,11 +475,17 @@
       </list>
     </option>
   </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="384" />
-    <option name="y" value="105" />
-    <option name="width" value="1118" />
-    <option name="height" value="890" />
+    <option name="x" value="952" />
+    <option name="y" value="38" />
+    <option name="width" value="976" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -496,7 +502,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -533,8 +539,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -544,11 +550,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="jdk.selected.PYTHON_MODULE" value="Python 3.6.1 virtualenv at C:\Users\malinovskiyv\py_test" />
-    <property name="SearchEverywhereHistoryKey" value="six&#9;FILE&#9;file://C:/Users/malinovskiyv/Downloads/Practice/Test_Gradle/src/test/java/MySixthTest.java&#10;seco&#9;FILE&#9;file://C:/Users/malinovskiyv/Downloads/Practice/Test_Gradle/src/test/java/MySecondTest.java&#10;th&#9;FILE&#9;file://C:/Users/malinovskiyv/Downloads/Practice/Test_Gradle/src/test/java/MyFifthTest.java&#10;fif&#9;FILE&#9;file://C:/Users/malinovskiyv/Downloads/Practice/Test_Gradle/src/test/java/MyFifthTest.java&#10;getAttribu&#9;PSI&#9;JAVA://com.sun.glass.ui.Accessible.GetAttribute&#10;Compara&#9;PSI&#9;JAVA://javax.swing.table.TableRowSorter.ComparableComparator&#10;Integer&#9;PSI&#9;JAVA://java.lang.Integer&#10;Inte&#9;PSI&#9;JAVA://com.sun.corba.se.spi.orb.OperationFactory.IntegerAction&#10;String&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="six&#9;FILE&#9;file://C:/Users/Vitaliy/IdeaProjects/Test_Gradle/src/test/java/MySixthTest.java&#10;fif&#9;FILE&#9;file://C:/Users/Vitaliy/IdeaProjects/Test_Gradle/src/test/java/MyFifthTest.java&#10;seco&#9;FILE&#9;file://C:/Users/malinovskiyv/Downloads/Practice/Test_Gradle/src/test/java/MySecondTest.java&#10;th&#9;FILE&#9;file://C:/Users/malinovskiyv/Downloads/Practice/Test_Gradle/src/test/java/MyFifthTest.java&#10;getAttribu&#9;PSI&#9;JAVA://com.sun.glass.ui.Accessible.GetAttribute&#10;Compara&#9;PSI&#9;JAVA://javax.swing.table.TableRowSorter.ComparableComparator&#10;Integer&#9;PSI&#9;JAVA://java.lang.Integer&#10;Inte&#9;PSI&#9;JAVA://com.sun.corba.se.spi.orb.OperationFactory.IntegerAction&#10;String&#9;null&#9;null" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$/../Test_Gradle_Alena/build.gradle" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -863,6 +871,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="java-example_main" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -914,6 +923,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <module name="java-example_main" />
       <method />
     </configuration>
@@ -927,6 +937,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="java-example_main" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -946,6 +957,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="java-example_main" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;.&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
@@ -961,6 +973,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="java-example_main" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;.&quot;" />
@@ -979,6 +992,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Test_Gradle_Python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Test_Gradle_Python/Test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -1032,6 +1046,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1495627580113</updated>
+      <workItem from="1497586394127" duration="4220000" />
     </task>
     <task id="LOCAL-00001" summary="Next commit">
       <created>1495782606748</created>
@@ -1142,36 +1157,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MySixthTest_checkGoodiesFromAdmin - 2017.06.15 at 18h 27m 03s.xml">
+    <history-entry file="MySixthTest_checkGoodiesFromAdmin - 2017.06.16 at 08h 06m 54s.xml">
       <configuration name="MySixthTest.checkGoodiesFromAdmin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySixthTest_checkGoodiesFromAdmin - 2017.06.15 at 18h 27m 16s.xml">
+    <history-entry file="MySixthTest_checkGoodiesFromAdmin - 2017.06.16 at 08h 09m 46s.xml">
       <configuration name="MySixthTest.checkGoodiesFromAdmin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySixthTest_checkGoodiesFromAdmin - 2017.06.15 at 18h 28m 05s.xml">
+    <history-entry file="MySixthTest_checkGoodiesFromAdmin - 2017.06.16 at 08h 14m 32s.xml">
       <configuration name="MySixthTest.checkGoodiesFromAdmin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySixthTest_checkGoodiesFromAdmin - 2017.06.15 at 18h 29m 13s.xml">
+    <history-entry file="MySixthTest_checkGoodiesFromAdmin - 2017.06.16 at 08h 15m 05s.xml">
       <configuration name="MySixthTest.checkGoodiesFromAdmin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySixthTest_checkGoodiesFromAdmin - 2017.06.15 at 18h 29m 44s.xml">
+    <history-entry file="MySixthTest_checkGoodiesFromAdmin - 2017.06.16 at 08h 15m 33s.xml">
       <configuration name="MySixthTest.checkGoodiesFromAdmin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySixthTest_checkGoodiesFromAdmin - 2017.06.15 at 18h 32m 02s.xml">
+    <history-entry file="MySixthTest_checkGoodiesFromAdmin - 2017.06.16 at 08h 16m 26s.xml">
       <configuration name="MySixthTest.checkGoodiesFromAdmin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySixthTest_checkGoodiesFromAdmin - 2017.06.15 at 18h 32m 31s.xml">
+    <history-entry file="MySixthTest_checkGoodiesFromAdmin - 2017.06.16 at 08h 17m 36s.xml">
       <configuration name="MySixthTest.checkGoodiesFromAdmin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySixthTest_checkGoodiesFromAdmin - 2017.06.15 at 18h 34m 40s.xml">
+    <history-entry file="MySixthTest_checkGoodiesFromAdmin - 2017.06.16 at 08h 18m 12s.xml">
       <configuration name="MySixthTest.checkGoodiesFromAdmin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySixthTest_checkGoodiesFromAdmin - 2017.06.15 at 18h 35m 47s.xml">
+    <history-entry file="MySixthTest_checkGoodiesFromAdmin - 2017.06.16 at 08h 22m 49s.xml">
       <configuration name="MySixthTest.checkGoodiesFromAdmin" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySixthTest_checkGoodiesFromAdmin - 2017.06.15 at 18h 36m 43s.xml">
+    <history-entry file="MySixthTest_checkGoodiesFromAdmin - 2017.06.16 at 08h 23m 27s.xml">
       <configuration name="MySixthTest.checkGoodiesFromAdmin" configurationId="JUnit" />
     </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4260000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1183,32 +1201,33 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="384" y="105" width="1118" height="890" extended-state="0" />
+    <frame x="952" y="38" width="976" height="1050" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15684775" sideWeight="0.4938918" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29085302" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21210013" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32246378" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32971016" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.327852" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.397343" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23774955" sideWeight="0.4938918" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21045485" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15684775" sideWeight="0.4938918" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26077887" sideWeight="0.5061082" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21210013" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1252,6 +1271,9 @@
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26077887" sideWeight="0.5061082" order="6" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -1306,7 +1328,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="75" />
+      <option name="time" value="76" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1337,50 +1359,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ToolForHTTPRequest.java" />
-    <entry file="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/pydev/pydev_ipython/inputhook.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/py_test/Lib/site-packages/selenium/webdriver/common/service.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
-          <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/py_test/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="193" column="0" lean-forward="false" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/pydev/pydev_ipython/inputhook.py" />
+    <entry file="file://$USER_HOME$/py_test/Lib/site-packages/selenium/webdriver/common/service.py" />
+    <entry file="file://$USER_HOME$/py_test/Lib/site-packages/selenium/webdriver/remote/errorhandler.py" />
     <entry file="file://$PROJECT_DIR$/../Test_Gradle_Python/geckodriver.log" />
     <entry file="file://$PROJECT_DIR$/../Test_Gradle_Python/Test_Gradle_Python.iml" />
-    <entry file="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="1014" column="0" lean-forward="false" selection-start-line="1014" selection-start-column="0" selection-end-line="1014" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/T1/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="193" column="0" lean-forward="false" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/pydev/pydevd.py" />
+    <entry file="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/pydev/_pydev_imps/_pydev_execfile.py" />
+    <entry file="file://$USER_HOME$/T1/Lib/site-packages/selenium/webdriver/remote/errorhandler.py" />
     <entry file="file://$PROJECT_DIR$/../Test_Gradle_Python/Test.py" />
     <entry file="file://$PROJECT_DIR$/src/newTest/java/gradlew" />
     <entry file="file://$PROJECT_DIR$/src/newTest/java/build.gradle" />
@@ -1406,28 +1392,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <marker date="1489531490000" expanded="false" signature="0:215" ph="/.../" />
-            <marker date="1489531490000" expanded="true" signature="237:499" ph="/**...*/" />
-            <marker date="1489531490000" expanded="true" signature="584:618" ph="{...}" />
-            <marker date="1489531490000" expanded="true" signature="624:1397" ph="/**...*/" />
-            <marker date="1489531490000" expanded="true" signature="1448:3378" ph="/**...*/" />
-            <marker date="1489531490000" expanded="true" signature="3418:5709" ph="/**...*/" />
-            <marker date="1489531490000" expanded="false" signature="5747:5758" ph=" { " />
-            <marker date="1489531490000" expanded="false" signature="5779:5785" ph=" }" />
-            <marker date="1489531490000" expanded="true" signature="5791:9039" ph="/**...*/" />
-            <marker date="1489531490000" expanded="true" signature="9116:10035" ph="/**...*/" />
-            <marker date="1489531490000" expanded="false" signature="10064:10075" ph=" { " />
-            <marker date="1489531490000" expanded="false" signature="10143:10149" ph=" }" />
-            <marker date="1489531490000" expanded="true" signature="10155:11756" ph="/**...*/" />
-            <marker date="1489531490000" expanded="true" signature="11801:12878" ph="/**...*/" />
-            <marker date="1489531490000" expanded="true" signature="12926:17483" ph="/**...*/" />
-            <marker date="1489531490000" expanded="true" signature="17566:20574" ph="/**...*/" />
-            <marker date="1489531490000" expanded="true" signature="20655:21035" ph="{...}" />
-            <marker date="1489531490000" expanded="true" signature="21041:22931" ph="/**...*/" />
-            <marker date="1489531490000" expanded="true" signature="22989:23013" ph="{...}" />
-            <marker date="1489531490000" expanded="true" signature="23019:25776" ph="/**...*/" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1554,71 +1518,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-          <folding>
-            <marker date="1495624451640" expanded="false" signature="0:802" ph="/.../" />
-            <marker date="1495624451640" expanded="false" signature="841:1034" ph="..." />
-            <marker date="1495624451640" expanded="true" signature="1037:1952" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="2023:2738" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="2766:2924" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="2979:3167" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="3192:3763" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="3808:4513" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="4561:5239" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="5269:5370" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="5390:5456" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="5475:5761" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="5799:6016" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="6048:6249" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="6281:6526" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="6555:6681" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="6705:6782" ph="/**...*/" />
-            <marker date="1495624451640" expanded="false" signature="6803:8662" ph="{...}" />
-            <marker date="1495624451640" expanded="true" signature="6810:7027" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="7068:7288" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="7335:7484" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="7528:7593" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="7628:7835" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="7871:8049" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="8095:8165" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="8196:8298" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="8326:8399" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="8426:8631" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="8666:8748" ph="/**...*/" />
-            <marker date="1495624451640" expanded="false" signature="8770:10499" ph="{...}" />
-            <marker date="1495624451640" expanded="true" signature="8777:9625" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="9686:10088" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="10151:10439" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="10503:10557" ph="/**...*/" />
-            <marker date="1495624451640" expanded="false" signature="10584:13630" ph="{...}" />
-            <marker date="1495624451640" expanded="true" signature="10590:11094" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="11132:11562" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="11606:12026" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="12078:12290" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="12325:12695" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="12744:12937" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="12975:13353" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="13391:13607" ph="/**...*/" />
-            <marker date="1495624451640" expanded="false" signature="13655:14818" ph="{...}" />
-            <marker date="1495624451640" expanded="true" signature="13661:13731" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="13754:13884" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="13911:14566" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="14597:14723" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="14751:14794" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="14822:14877" ph="/**...*/" />
-            <marker date="1495624451640" expanded="false" signature="14901:16754" ph="{...}" />
-            <marker date="1495624451640" expanded="true" signature="14907:15132" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="15178:15400" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="15436:15694" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="15727:16000" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="16029:16710" ph="/**...*/" />
-            <marker date="1495624451640" expanded="false" signature="16783:17942" ph="{...}" />
-            <marker date="1495624451640" expanded="true" signature="16789:17007" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="17053:17283" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="17333:17510" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="17541:17699" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="17730:17808" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="17835:17915" ph="/**...*/" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1640,26 +1539,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1819">
           <caret line="122" column="9" lean-forward="false" selection-start-line="122" selection-start-column="9" selection-end-line="122" selection-end-column="21" />
-          <folding>
-            <marker date="1495624451640" expanded="false" signature="0:802" ph="/.../" />
-            <marker date="1495624451640" expanded="true" signature="858:1361" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="1433:2169" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="2189:2511" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="2532:2693" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="2742:3335" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="3355:3590" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="3617:5431" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="5471:5742" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="5770:5973" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="6000:6204" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="6228:7061" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="7105:7886" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="7923:8116" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="8145:8324" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="8351:8474" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="8501:8569" ph="/**...*/" />
-            <marker date="1495624451640" expanded="true" signature="8596:9422" ph="/**...*/" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1668,7 +1548,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1676,19 +1555,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="148" column="25" lean-forward="true" selection-start-line="148" selection-start-column="25" selection-end-line="148" selection-end-column="25" />
-          <folding>
-            <element signature="method#start#0;class#MyThirdTest#0" expanded="false" />
-            <element signature="method#loginTest#0;class#MyThirdTest#0" expanded="false" />
-            <element signature="method#checkCountries#0;class#MyThirdTest#0" expanded="false" />
-            <element signature="method#equalsLists#0;class#MyThirdTest#0" expanded="false" />
-            <element signature="e#1706#1731#0" expanded="false" />
-            <element signature="method#checkZones#0;class#MyThirdTest#0" expanded="false" />
-            <element signature="method#checkCanada#0;class#MyThirdTest#0" expanded="false" />
-            <element signature="method#checkUS#0;class#MyThirdTest#0" expanded="false" />
-            <element signature="method#findElements#0;class#MyThirdTest#0" expanded="false" />
-            <element signature="method#GetFirstElement#0;class#MyThirdTest#0" expanded="false" />
-            <element signature="method#close#0;class#MyThirdTest#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1706,60 +1572,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MyFifthTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="25" column="104" lean-forward="true" selection-start-line="25" selection-start-column="104" selection-end-line="25" selection-end-column="104" />
-          <folding>
-            <marker date="1497524806912" expanded="false" signature="7:468" ph="..." />
-            <marker date="1497524806912" expanded="true" signature="470:519" ph="/**...*/" />
-            <marker date="1497524806912" expanded="true" signature="710:899" ph="{...}" />
-            <marker date="1497524806912" expanded="true" signature="948:1347" ph="{...}" />
-            <marker date="1497524806912" expanded="false" signature="1382:2921" ph="{...}" />
-            <marker date="1497524806912" expanded="false" signature="2968:3274" ph="{...}" />
-            <marker date="1497524806912" expanded="true" signature="3311:3365" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MySecondTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="30" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MyFifthTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="48" column="52" lean-forward="true" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
           <folding>
-            <marker date="1496930660275" expanded="false" signature="7:371" ph="..." />
-            <marker date="1496930660275" expanded="true" signature="502:645" ph="{...}" />
-            <marker date="1496930660275" expanded="true" signature="685:993" ph="{...}" />
-            <marker date="1496930660275" expanded="true" signature="1033:10708" ph="{...}" />
-            <marker date="1496930660275" expanded="false" signature="1138:1585" ph="Apearence" />
-            <marker date="1496930660275" expanded="false" signature="1595:3139" ph="Catalog" />
-            <marker date="1496930660275" expanded="false" signature="3149:3377" ph="Countries" />
-            <marker date="1496930660275" expanded="false" signature="3387:3617" ph="Currencies" />
-            <marker date="1496930660275" expanded="false" signature="3627:4229" ph="Customers" />
-            <marker date="1496930660275" expanded="false" signature="4239:4467" ph="Geo Zones" />
-            <marker date="1496930660275" expanded="false" signature="4477:4943" ph="Laanguages" />
-            <marker date="1496930660275" expanded="false" signature="4953:6160" ph="Modules" />
-            <marker date="1496930660275" expanded="false" signature="6170:6622" ph="Orders" />
-            <marker date="1496930660275" expanded="false" signature="6632:6852" ph="Pages" />
-            <marker date="1496930660275" expanded="false" signature="6862:7513" ph="Reports" />
-            <marker date="1496930660275" expanded="false" signature="7523:8839" ph="Settings" />
-            <marker date="1496930660275" expanded="false" signature="8849:9072" ph="Slides" />
-            <marker date="1496930660275" expanded="false" signature="9082:9532" ph="Tax" />
-            <marker date="1496930660275" expanded="false" signature="9542:10166" ph="Transactions" />
-            <marker date="1496930660275" expanded="false" signature="10176:10396" ph="Uers" />
-            <marker date="1496930660275" expanded="false" signature="10406:10702" ph="vQmods" />
-            <marker date="1496930660275" expanded="true" signature="10752:11081" ph="{...}" />
-            <marker date="1496930660275" expanded="true" signature="11141:11437" ph="{...}" />
-            <marker date="1496930660275" expanded="true" signature="11524:11622" ph="{...}" />
-            <marker date="1496930660275" expanded="true" signature="11659:11712" ph="{...}" />
+            <marker date="1497561689406" expanded="false" signature="7:468" ph="..." />
+            <marker date="1497561689406" expanded="true" signature="470:519" ph="/**...*/" />
+            <marker date="1497561689406" expanded="true" signature="710:899" ph="{...}" />
+            <marker date="1497561689406" expanded="true" signature="948:1347" ph="{...}" />
+            <marker date="1497561689406" expanded="true" signature="1382:2921" ph="{...}" />
+            <marker date="1497561689406" expanded="true" signature="2968:3274" ph="{...}" />
+            <marker date="1497561689406" expanded="false" signature="3311:3365" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MySixthTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="60" column="45" lean-forward="true" selection-start-line="60" selection-start-column="45" selection-end-line="60" selection-end-column="45" />
+        <state relative-caret-position="522">
+          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#loginTest#0;class#MySixthTest#0" expanded="false" />

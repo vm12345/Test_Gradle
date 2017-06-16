@@ -1,4 +1,3 @@
-import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -7,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
@@ -42,6 +42,12 @@ public class MySixthTest {
         actions.moveToElement(elements.get(2).findElement(By.xpath(".//td/input"))).click().sendKeys("123123").perform();
         actions.moveToElement(elements.get(3).findElement(By.xpath("./td/div/table/tbody/tr[3]/td[1]/input"))).click().perform();
         actions.moveToElement(elements.get(3).findElement(By.xpath("./td/div/table/tbody/tr[2]/td[1]/input"))).click().perform();
+        actions.moveToElement(elements.get(9).findElement(By.xpath("./td/div/table/tbody/tr[3]/td[1]/input"))).click().perform();
+        actions.moveToElement(elements.get(14).findElement(By.xpath(".//input[@name='quantity']"))).click().sendKeys("999").perform();
+        Select select = new Select(elements.get(14).findElement(By.xpath(".//td/table/tbody/tr/td[4]/select")));
+        select.selectByValue("2");
+
+System.out.println(elements.get(14).getText());
 
     }
 
@@ -52,7 +58,7 @@ public class MySixthTest {
         driver.findElement(By.cssSelector("button[name=login]")).click();
     }
 
-    @After
+//    @After
     public void close() {
         driver.close();
         driver = null;
