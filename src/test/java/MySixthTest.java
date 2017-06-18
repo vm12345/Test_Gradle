@@ -21,6 +21,7 @@ public class MySixthTest {
     private WebElement driverElement;
     private Actions actions;
     private Select select;
+    private JavascriptExecutor jse;
 
     @Before
     public void start() {
@@ -30,6 +31,7 @@ public class MySixthTest {
 
     @Test
     public void checkGoodiesFromAdmin() {
+        jse = (JavascriptExecutor) driver;
         loginTest();
         driver.get("http://localhost/litecart/admin/?app=catalog&doc=catalog");
         driverElement = driver.findElement(By.xpath("//*[@class='button'][2]"));
@@ -41,6 +43,7 @@ public class MySixthTest {
         actions.moveToElement(elements.get(0).findElement(By.xpath(".//input"))).click().perform();
         actions.moveToElement(elements.get(1).findElement(By.xpath(".//td/span/input"))).click().sendKeys("new Product").perform();
         actions.moveToElement(elements.get(2).findElement(By.xpath(".//td/input"))).click().sendKeys("123123").perform();
+        jse.executeScript("window.scrollBy(0,250)", "");
         actions.moveToElement(elements.get(3).findElement(By.xpath("./td/div/table/tbody/tr[3]/td[1]/input"))).click().perform();
         actions.moveToElement(elements.get(3).findElement(By.xpath("./td/div/table/tbody/tr[2]/td[1]/input"))).click().perform();
         actions.moveToElement(elements.get(9).findElement(By.xpath("./td/div/table/tbody/tr[3]/td[1]/input"))).click().perform();
@@ -48,7 +51,6 @@ public class MySixthTest {
         select = new Select(elements.get(14).findElement(By.xpath(".//td/table/tbody/tr/td[4]/select")));
         select.selectByValue("2");
         String workingDir = System.getProperty("user.dir");
-        JavascriptExecutor jse = (JavascriptExecutor) driver;
         actions.pause(3);
         jse.executeScript("window.scrollBy(0,250)", "");
         String filepath = workingDir + "\\src\\test\\java\\black-rubber-duck.jpg";
@@ -60,6 +62,7 @@ public class MySixthTest {
         actions.sendKeys(Keys.PAGE_UP);
         jse.executeScript("window.scrollBy(0,-250)", "");
         goToInformation();
+
     }
 
     private void goToInformation() {
@@ -72,6 +75,7 @@ public class MySixthTest {
         actions.moveToElement(elements.get(2)).click().sendKeys("BBlack").perform();
         actions.moveToElement(elements.get(3)).click().sendKeys("Very Black Duck").perform();
         actions.moveToElement(elements.get(4)).click().sendKeys("Duck for ritual games in baths, waterpools and other").perform();
+        jse.executeScript("window.scrollBy(0,250)", "");
         actions.moveToElement(elements.get(5)).click().sendKeys("Ritual Duck").perform();
         actions.moveToElement(elements.get(6)).click().sendKeys("Gaming").perform();
         goToPrices();
