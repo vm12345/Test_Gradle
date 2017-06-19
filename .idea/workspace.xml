@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08d6d076-55ee-426e-b62c-022469a9c83b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/MySeventhTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/MySixthTest.java" afterPath="$PROJECT_DIR$/src/test/java/MySixthTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/MySeventhTest.java" afterPath="$PROJECT_DIR$/src/test/java/MySeventhTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -61,8 +60,8 @@
       <file leaf-file-name="MySeventhTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MySeventhTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="37" column="38" lean-forward="false" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
+            <state relative-caret-position="614">
+              <caret line="51" column="55" lean-forward="true" selection-start-line="51" selection-start-column="55" selection-end-line="51" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -484,9 +483,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-9" />
-    <option name="y" value="29" />
+    <option name="y" value="-9" />
     <option name="width" value="1938" />
-    <option name="height" value="1060" />
+    <option name="height" value="1098" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -1282,7 +1281,8 @@
       <workItem from="1497703693361" duration="2058000" />
       <workItem from="1497766614580" duration="427000" />
       <workItem from="1497790740247" duration="11069000" />
-      <workItem from="1497809129685" duration="6306000" />
+      <workItem from="1497809129685" duration="6330000" />
+      <workItem from="1497846352351" duration="2847000" />
     </task>
     <task id="LOCAL-00001" summary="Next commit">
       <created>1495782606748</created>
@@ -1417,43 +1417,50 @@
       <option name="project" value="LOCAL" />
       <updated>1497598371804</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Next commit">
+      <created>1497815463950</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1497815463950</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MySeventhTest_checkRecycle - 2017.06.18 at 22h 41m 41s.xml">
+    <history-entry file="MySeventhTest_checkRecycle - 2017.06.19 at 07h 58m 47s.xml">
       <configuration name="MySeventhTest.checkRecycle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySeventhTest_checkRecycle - 2017.06.18 at 22h 42m 24s.xml">
+    <history-entry file="MySeventhTest_checkRecycle - 2017.06.19 at 08h 01m 02s.xml">
       <configuration name="MySeventhTest.checkRecycle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySeventhTest_checkRecycle - 2017.06.18 at 22h 43m 21s.xml">
+    <history-entry file="MySeventhTest_checkRecycle - 2017.06.19 at 08h 04m 05s.xml">
       <configuration name="MySeventhTest.checkRecycle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySeventhTest_checkRecycle - 2017.06.18 at 22h 44m 24s.xml">
+    <history-entry file="MySeventhTest_checkRecycle - 2017.06.19 at 08h 06m 26s.xml">
       <configuration name="MySeventhTest.checkRecycle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySeventhTest_checkRecycle - 2017.06.18 at 22h 46m 16s.xml">
+    <history-entry file="MySeventhTest_checkRecycle - 2017.06.19 at 08h 08m 40s.xml">
       <configuration name="MySeventhTest.checkRecycle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySeventhTest_checkRecycle - 2017.06.18 at 22h 46m 55s.xml">
+    <history-entry file="MySeventhTest_checkRecycle - 2017.06.19 at 08h 09m 16s.xml">
       <configuration name="MySeventhTest.checkRecycle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySeventhTest_checkRecycle - 2017.06.18 at 22h 48m 12s.xml">
+    <history-entry file="MySeventhTest_checkRecycle - 2017.06.19 at 08h 10m 06s.xml">
       <configuration name="MySeventhTest.checkRecycle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySeventhTest_checkRecycle - 2017.06.18 at 22h 49m 07s.xml">
+    <history-entry file="MySeventhTest_checkRecycle - 2017.06.19 at 08h 10m 42s.xml">
       <configuration name="MySeventhTest.checkRecycle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySeventhTest_checkRecycle - 2017.06.18 at 22h 49m 50s.xml">
+    <history-entry file="MySeventhTest_checkRecycle - 2017.06.19 at 08h 11m 22s.xml">
       <configuration name="MySeventhTest.checkRecycle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySeventhTest_checkRecycle - 2017.06.18 at 22h 50m 21s.xml">
+    <history-entry file="MySeventhTest_checkRecycle - 2017.06.19 at 08h 13m 03s.xml">
       <configuration name="MySeventhTest.checkRecycle" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35171000" />
+    <option name="totallyTimeSpent" value="38042000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1465,8 +1472,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="29" width="1938" height="1060" extended-state="6" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1479,14 +1485,14 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15684775" sideWeight="0.4938918" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36419126" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36336926" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21210013" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3214649" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3212537" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3041709" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30362388" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39674467" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23774955" sideWeight="0.4938918" order="0" side_tool="false" content_ui="combo" />
@@ -1864,8 +1870,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MySeventhTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="37" column="38" lean-forward="false" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
+        <state relative-caret-position="614">
+          <caret line="51" column="55" lean-forward="true" selection-start-line="51" selection-start-column="55" selection-end-line="51" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

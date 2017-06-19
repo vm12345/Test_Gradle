@@ -1,10 +1,11 @@
-import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
@@ -26,14 +27,11 @@ public class MySeventhTest {
     public void checkRecycle() {
 //.product - любая уточка
 // .//*[@id='cart']/a[2]/span[1] - цифирка
-        driver.get("http://localhost/litecart/en/");
-        WebElement element = driver.findElement(By.cssSelector(".product"));
-        WebElement element1 = driver.findElement(By.xpath(".//*[@id='cart']/a[2]/span[1]"));
-        System.out.println(element.getText());
-        System.out.println(element1.getText());
-        element.findElement(By.cssSelector("a")).click();
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        wait.until(driver1 -> driver.findElement(By.xpath(".//*[@id='box-product']/div[2]/div[2]/div[5]/form/table/tbody/tr/td/button"))).click();
+        addProduct();
+        addProduct();
+        addProduct();
+        addProduct();
+        addProduct();
         String textContent = driver.findElement(By.xpath(".//*[@id='cart']/a[2]/span[1]")).getAttribute("textContent");
         System.out.println(textContent);
 //2) открыть первый товар из списка
@@ -44,7 +42,18 @@ public class MySeventhTest {
 //6) удалить все товары из корзины один за другим, после каждого удаления подождать, пока внизу обновится таблица
     }
 
-    @After
+    private void addProduct() {
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        driver.get("http://localhost/litecart/en/");
+        WebElement until = wait.until(driver1 -> driver.findElement(By.cssSelector(".content .link")));
+        Actions action = new Actions(driver);
+        action.moveToElement(until).click().perform();
+        WebElement until1 = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector(".quantity>button")));
+        action.moveToElement(until1).click().perform();
+        until1.click();
+    }
+
+    //    @After
     public void close() {
         driver.close();
         driver = null;
