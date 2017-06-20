@@ -63,13 +63,10 @@
       <file leaf-file-name="MySeventhTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MySeventhTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="80">
+              <caret line="41" column="34" lean-forward="true" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
               <folding>
                 <element signature="docComment;class#MySeventhTest#0" expanded="false" />
-                <element signature="method#start#0;class#MySeventhTest#0" expanded="false" />
-                <element signature="method#checkRecycle#0;class#MySeventhTest#0" expanded="false" />
-                <element signature="method#checkRemoved#0;class#MySeventhTest#0" expanded="false" />
                 <element signature="method#addElementAndCheck#0;class#MySeventhTest#0" expanded="false" />
                 <element signature="method#close#0;class#MySeventhTest#0" expanded="false" />
               </folding>
@@ -490,8 +487,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="557" />
-    <option name="y" value="153" />
+    <option name="x" value="391" />
+    <option name="y" value="111" />
     <option name="width" value="1161" />
     <option name="height" value="890" />
   </component>
@@ -576,7 +573,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MySeventhTest.checkRecycle">
+  <component name="RunManager">
     <configuration default="false" name="MySixthTest.checkGoodiesFromAdmin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="java-example_test" />
@@ -619,14 +616,14 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="MySeventhTest.checkRecycle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="MySeventhTest.checkCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="java-example_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MySeventhTest" />
-      <option name="METHOD_NAME" value="checkRecycle" />
+      <option name="METHOD_NAME" value="checkCart" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1015,13 +1012,13 @@
       <item index="1" class="java.lang.String" itemvalue="Groovy.build (1)" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.MySixthTest.checkGoodiesFromAdmin" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.MySixthTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MySeventhTest.checkRecycle" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MySeventhTest.checkCart" />
       <item index="5" class="java.lang.String" itemvalue="JUnit.MySeventhTest.deleteElementAndCheck" />
       <item index="6" class="java.lang.String" itemvalue="JUnit.MySeventhTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MySeventhTest.checkRecycle" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MySeventhTest.checkCart" />
         <item index="1" class="java.lang.String" itemvalue="JUnit.MySeventhTest" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.MySeventhTest.deleteElementAndCheck" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.MySixthTest" />
@@ -1207,18 +1204,22 @@
       <option name="project" value="LOCAL" />
       <updated>1497956852239</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Next commit">
+      <created>1497970050414</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1497970050414</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MySeventhTest_checkRecycle - 2017.06.20 at 17h 40m 04s.xml">
-      <configuration name="MySeventhTest.checkRecycle" configurationId="JUnit" />
+    <history-entry file="MySeventhTest_checkCart - 2017.06.20 at 17h 48m 54s.xml">
+      <configuration name="MySeventhTest.checkCart" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MySeventhTest_checkRecycle - 2017.06.20 at 17h 40m 51s.xml">
-      <configuration name="MySeventhTest.checkRecycle" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MySeventhTest_checkRecycle - 2017.06.20 at 17h 41m 18s.xml">
-      <configuration name="MySeventhTest.checkRecycle" configurationId="JUnit" />
+    <history-entry file="MySeventhTest_checkCart - 2017.06.20 at 17h 50m 00s.xml">
+      <configuration name="MySeventhTest.checkCart" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MySeventhTest_checkRecycle - 2017.06.20 at 17h 42m 25s.xml">
       <configuration name="MySeventhTest.checkRecycle" configurationId="JUnit" />
@@ -1241,6 +1242,9 @@
     <history-entry file="MySeventhTest_checkRecycle - 2017.06.20 at 17h 46m 15s.xml">
       <configuration name="MySeventhTest.checkRecycle" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MySeventhTest_checkRecycle - 2017.06.20 at 17h 48m 15s.xml">
+      <configuration name="MySeventhTest.checkRecycle" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="38042000" />
@@ -1255,7 +1259,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="557" y="153" width="1161" height="890" extended-state="0" />
+    <frame x="391" y="111" width="1161" height="890" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1992,13 +1996,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MySeventhTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="80">
+          <caret line="41" column="34" lean-forward="true" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
           <folding>
             <element signature="docComment;class#MySeventhTest#0" expanded="false" />
-            <element signature="method#start#0;class#MySeventhTest#0" expanded="false" />
-            <element signature="method#checkRecycle#0;class#MySeventhTest#0" expanded="false" />
-            <element signature="method#checkRemoved#0;class#MySeventhTest#0" expanded="false" />
             <element signature="method#addElementAndCheck#0;class#MySeventhTest#0" expanded="false" />
             <element signature="method#close#0;class#MySeventhTest#0" expanded="false" />
           </folding>

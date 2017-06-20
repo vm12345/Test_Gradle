@@ -25,7 +25,7 @@ public class MySeventhTest {
     }
 
     @Test
-    public void checkRecycle() {
+    public void checkCart() {
 //        добавить объекты
         addElementAndCheck("1");
         addElementAndCheck("2");
@@ -40,6 +40,7 @@ public class MySeventhTest {
         checkRemoved();
         checkRemoved();
         checkRemoved();
+        checkRemoved();
     }
 
     private void checkRemoved() {
@@ -49,7 +50,7 @@ public class MySeventhTest {
         if (until.size() > 0) {
             WebElement button = wait.until(ExpectedConditions.elementToBeClickable(elements.get(0)));
             button.click();
-        } else System.out.println("WOW");
+        }else System.out.println(until.size());
     }
 
     private void addElementAndCheck(String s) {
