@@ -27,20 +27,16 @@ public class MySeventhTest {
     @Test
     public void checkCart() {
 //        добавить объекты
-        addElementAndCheck("1");
-        addElementAndCheck("2");
-        addElementAndCheck("3");
-        addElementAndCheck("4");
-        addElementAndCheck("5");
-        addElementAndCheck("6");
+        int usersValue = 10;
+        for (int i = 1; i < usersValue; i++) {
+            String s = String.valueOf(i);
+           addElementAndCheck(s);
+        }
 //        удалить боъекты
         driver.get("http://localhost/litecart/");
-        checkRemoved();
-        checkRemoved();
-        checkRemoved();
-        checkRemoved();
-        checkRemoved();
-        checkRemoved();
+        for (int i = 1; i < usersValue; i++) {
+            checkRemoved();
+        }
     }
 
     private void checkRemoved() {
@@ -50,7 +46,7 @@ public class MySeventhTest {
         if (until.size() > 0) {
             WebElement button = wait.until(ExpectedConditions.elementToBeClickable(elements.get(0)));
             button.click();
-        }else System.out.println(until.size());
+        } else System.out.println(until.size());
     }
 
     private void addElementAndCheck(String s) {
