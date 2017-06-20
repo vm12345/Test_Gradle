@@ -1,4 +1,3 @@
-import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -34,13 +33,10 @@ public class MySeventhTest {
 //        удалить боъекты
         driver.get("http://localhost/litecart/");
         driver.findElement(By.cssSelector("div#cart > a.link")).click();
-        wait.until(driver1 -> driver1.findElement(By.cssSelector("#box-checkout-summary > h2")));
-        driver.findElements(By.cssSelector("#order_confirmation-wrapper > table > tbody > tr"));
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(("#box-checkout-cart > div > ul > li:nth-child(1) > form > div > p:nth-child(4) > button"))));
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(("#box-checkout-cart > div > ul > li:nth-child(2) > form > div > p:nth-child(4) > button"))));
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(("#box-checkout-cart > div > ul > li:nth-child(3) > form > div > p:nth-child(4) > button"))));
-        System.out.println("WOW");
+        List<WebElement> until = wait.until(driver -> driver.findElements(By.xpath("//*[@id='box-checkout-cart']/ul/li")));
+
     }
+
 
     private void addElementAndCheck(String s) {
         driver.get("http://localhost/litecart/");
@@ -55,10 +51,11 @@ public class MySeventhTest {
         wait.until(ExpectedConditions.attributeContains(driver.findElement(By.cssSelector("#cart > a.content > span.quantity")), "innerText", s));
     }
 
-    @After
+    //    @After
     public void close() {
         driver.close();
         driver = null;
     }
+
 }
 
