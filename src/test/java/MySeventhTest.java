@@ -1,3 +1,4 @@
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -16,7 +17,6 @@ import java.util.List;
 public class MySeventhTest {
     private WebDriver driver;
     private WebDriverWait wait;
-    private WebElement element;
 
     @Before
     public void start() {
@@ -30,13 +30,27 @@ public class MySeventhTest {
         addElementAndCheck("1");
         addElementAndCheck("2");
         addElementAndCheck("3");
+        addElementAndCheck("4");
+        addElementAndCheck("5");
+        addElementAndCheck("6");
 //        удалить боъекты
         driver.get("http://localhost/litecart/");
-        driver.findElement(By.cssSelector("div#cart > a.link")).click();
-        List<WebElement> until = wait.until(driver -> driver.findElements(By.xpath("//*[@id='box-checkout-cart']/ul/li")));
-
+        checkRemoved();
+        checkRemoved();
+        checkRemoved();
+        checkRemoved();
+        checkRemoved();
     }
 
+    private void checkRemoved() {
+        driver.get("http://localhost/litecart/en/checkout");
+        List<WebElement> until = wait.until(driver -> driver.findElements(By.xpath("//*[@id='box-checkout-cart']/div/ul/li/form")));
+        List<WebElement> elements = driver.findElements(By.xpath(".//form[@name='cart_form']//button[@name='remove_cart_item']"));
+        if (until.size() > 0) {
+            WebElement button = wait.until(ExpectedConditions.elementToBeClickable(elements.get(0)));
+            button.click();
+        } else System.out.println("WOW");
+    }
 
     private void addElementAndCheck(String s) {
         driver.get("http://localhost/litecart/");
@@ -51,7 +65,7 @@ public class MySeventhTest {
         wait.until(ExpectedConditions.attributeContains(driver.findElement(By.cssSelector("#cart > a.content > span.quantity")), "innerText", s));
     }
 
-    //    @After
+    @After
     public void close() {
         driver.close();
         driver = null;
