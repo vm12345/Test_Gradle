@@ -25,7 +25,7 @@ public class MyEighthTest {
     public void checkLinks() {
         loginTest();
         driver.get("http://localhost/litecart/admin/?app=countries&doc=edit_country&country_code=AF");
-        List<WebElement> elements = driver.findElements(By.cssSelector("td#content a[target=_blank]"));
+        List<WebElement> elements = driver.findElements(By.cssSelector("td#content a[target='blank']"));
         for (int i = 0; i < elements.size(); i++) {
             clickAndClose(elements.get(i));
         }
