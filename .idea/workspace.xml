@@ -4,7 +4,7 @@
     <list default="true" id="08d6d076-55ee-426e-b62c-022469a9c83b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/MysecondTest.class" afterPath="$PROJECT_DIR$/build/classes/test/MysecondTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/MySecondTest.java" afterPath="$PROJECT_DIR$/src/test/java/MySecondTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/MyThirdTest.java" afterPath="$PROJECT_DIR$/src/test/java/MyThirdTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -70,7 +70,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MySecondTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MySecondTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/MySecondTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="320">
@@ -84,6 +84,28 @@
                 <element signature="method#hasSticker#0;class#MySecondTest#0" expanded="false" />
                 <element signature="method#isEquals#0;class#MySecondTest#0" expanded="false" />
                 <element signature="method#close#0;class#MySecondTest#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyThirdTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/MyThirdTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="136" column="34" lean-forward="true" selection-start-line="136" selection-start-column="34" selection-end-line="136" selection-end-column="34" />
+              <folding>
+                <element signature="method#start#0;class#MyThirdTest#0" expanded="false" />
+                <element signature="method#loginTest#0;class#MyThirdTest#0" expanded="false" />
+                <element signature="method#checkCountries#0;class#MyThirdTest#0" expanded="false" />
+                <element signature="method#equalsLists#0;class#MyThirdTest#0" expanded="false" />
+                <element signature="e#1703#1728#0" expanded="false" />
+                <element signature="method#checkZones#0;class#MyThirdTest#0" expanded="false" />
+                <element signature="method#checkCountry#0;class#MyThirdTest#0" expanded="false" />
+                <element signature="method#CheckCountries#0;class#MyThirdTest#0" expanded="false" />
+                <element signature="method#findElements#0;class#MyThirdTest#0" expanded="false" />
+                <element signature="method#GetFirstElement#0;class#MyThirdTest#0" expanded="false" />
+                <element signature="method#close#0;class#MyThirdTest#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -485,7 +507,6 @@
         <option value="$PROJECT_DIR$/../Test_Gradle_Alena/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/MysecondTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/MyFourthTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MyThirdTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/MyForthTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/MyFithTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/MyFifthTest.java" />
@@ -495,6 +516,7 @@
         <option value="$PROJECT_DIR$/src/test/java/MyEighthTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/MyTenthTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/MySecondTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MyThirdTest.java" />
       </list>
     </option>
   </component>
@@ -525,6 +547,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -561,9 +586,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -605,7 +627,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MySecondTest.checkMenu">
+  <component name="RunManager" selected="JUnit.MyThirdTest.checkCountry">
     <configuration default="false" name="MyEighthTest.checkLinks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="java-example_test" />
@@ -635,6 +657,27 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MySecondTest" />
       <option name="METHOD_NAME" value="checkMenu" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="MyThirdTest.checkCountry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="java-example_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyThirdTest" />
+      <option name="METHOD_NAME" value="checkCountry" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -946,14 +989,16 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JUnit.MyEighthTest.checkLinks" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.MySecondTest.checkMenu" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MyThirdTest.checkCountry" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MySecondTest.checkMenu" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MyEighthTest.checkLinks" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MyThirdTest.checkCountry" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MySecondTest.checkMenu" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MyEighthTest.checkLinks" />
       </list>
     </recent_temporary>
   </component>
@@ -1164,28 +1209,17 @@
       <option name="project" value="LOCAL" />
       <updated>1498139663045</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Next commit">
+      <created>1498559714913</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1498559714913</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MySecondTest_checkMenu - 2017.06.27 at 13h 25m 00s.xml">
-      <configuration name="MySecondTest.checkMenu" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MySecondTest_checkMenu - 2017.06.27 at 13h 25m 44s.xml">
-      <configuration name="MySecondTest.checkMenu" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MySecondTest_checkMenu - 2017.06.27 at 13h 26m 11s.xml">
-      <configuration name="MySecondTest.checkMenu" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MySecondTest_checkMenu - 2017.06.27 at 13h 27m 22s.xml">
-      <configuration name="MySecondTest.checkMenu" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MySecondTest_checkMenu - 2017.06.27 at 13h 28m 37s.xml">
-      <configuration name="MySecondTest.checkMenu" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MySecondTest_checkMenu - 2017.06.27 at 13h 29m 14s.xml">
-      <configuration name="MySecondTest.checkMenu" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MySecondTest_checkMenu - 2017.06.27 at 13h 30m 55s.xml">
       <configuration name="MySecondTest.checkMenu" configurationId="JUnit" />
     </history-entry>
@@ -1197,6 +1231,24 @@
     </history-entry>
     <history-entry file="MySecondTest_checkMenu - 2017.06.27 at 13h 34m 29s.xml">
       <configuration name="MySecondTest.checkMenu" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyThirdTest_checkCanada - 2017.06.27 at 13h 39m 03s.xml">
+      <configuration name="MyThirdTest.checkCanada" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyThirdTest_checkCanada - 2017.06.27 at 13h 39m 36s.xml">
+      <configuration name="MyThirdTest.checkCanada" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyThirdTest_checkCanada - 2017.06.27 at 13h 43m 20s.xml">
+      <configuration name="MyThirdTest.checkCanada" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyThirdTest_checkCanada - 2017.06.27 at 13h 43m 47s.xml">
+      <configuration name="MyThirdTest.checkCanada" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyThirdTest_checkCanada - 2017.06.27 at 13h 46m 08s.xml">
+      <configuration name="MyThirdTest.checkCanada" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyThirdTest_checkCanada - 2017.06.27 at 13h 50m 40s.xml">
+      <configuration name="MyThirdTest.checkCanada" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
@@ -1230,7 +1282,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906976" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26957956" sideWeight="0.4938918" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2694718" sideWeight="0.4938918" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21045485" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15684775" sideWeight="0.4938918" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1508,13 +1560,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MyThirdTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="148" column="25" lean-forward="true" selection-start-line="148" selection-start-column="25" selection-end-line="148" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/Assert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
@@ -1673,6 +1718,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="21" column="81" lean-forward="true" selection-start-line="21" selection-start-column="81" selection-end-line="21" selection-end-column="81" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1680,6 +1726,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+          <folding>
+            <element signature="docComment;class#MyTenthTest#0" expanded="false" />
+            <element signature="method#start#0;class#MyTenthTest#0" expanded="false" />
+            <element signature="method#loginTest#0;class#MyTenthTest#0" expanded="false" />
+            <element signature="method#close#0;class#MyTenthTest#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1711,6 +1763,26 @@
             <element signature="method#hasSticker#0;class#MySecondTest#0" expanded="false" />
             <element signature="method#isEquals#0;class#MySecondTest#0" expanded="false" />
             <element signature="method#close#0;class#MySecondTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MyThirdTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="136" column="34" lean-forward="true" selection-start-line="136" selection-start-column="34" selection-end-line="136" selection-end-column="34" />
+          <folding>
+            <element signature="method#start#0;class#MyThirdTest#0" expanded="false" />
+            <element signature="method#loginTest#0;class#MyThirdTest#0" expanded="false" />
+            <element signature="method#checkCountries#0;class#MyThirdTest#0" expanded="false" />
+            <element signature="method#equalsLists#0;class#MyThirdTest#0" expanded="false" />
+            <element signature="e#1703#1728#0" expanded="false" />
+            <element signature="method#checkZones#0;class#MyThirdTest#0" expanded="false" />
+            <element signature="method#checkCountry#0;class#MyThirdTest#0" expanded="false" />
+            <element signature="method#CheckCountries#0;class#MyThirdTest#0" expanded="false" />
+            <element signature="method#findElements#0;class#MyThirdTest#0" expanded="false" />
+            <element signature="method#GetFirstElement#0;class#MyThirdTest#0" expanded="false" />
+            <element signature="method#close#0;class#MyThirdTest#0" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -4,7 +4,7 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.util.ArrayList;
@@ -17,7 +17,7 @@ public class MyThirdTest {
 
     @Before
     public void start() {
-        driver = new FirefoxDriver(new DesiredCapabilities());
+        driver = new ChromeDriver(new DesiredCapabilities());
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
@@ -67,16 +67,24 @@ public class MyThirdTest {
     }
 
     @Test
-    public void checkCanada() {
+    public void checkCountry() {
         loginTest();
         driver.get("http://localhost/litecart/admin/?app=geo_zones&doc=geo_zones");
         WebElement element = driver.findElement(By.cssSelector("form[name=geo_zones_form]"));
         List<WebElement> elements = element.findElements(By.cssSelector("tr.row"));
-        elements.get(0).findElement(By.cssSelector("a")).click();
+        CheckCountries(elements.get(0));
+        driver.get("http://localhost/litecart/admin/?app=geo_zones&doc=geo_zones");
+        element = driver.findElement(By.cssSelector("form[name=geo_zones_form]"));
+        elements = element.findElements(By.cssSelector("tr.row"));
+        CheckCountries(elements.get(1));
+    }
+
+    private void CheckCountries(WebElement element) {
+        element.findElement(By.cssSelector("a")).click();
         WebElement driverElement = driver.findElement(By.cssSelector("table#table-zones"));
         List<WebElement> selects = driverElement.findElements(By.cssSelector("select"));
         List<WebElement> option = selects.get(0).findElements(By.cssSelector("option"));
-        List<WebElement> Zoneoption = selects.get(1).findElements(By.cssSelector("option"));
+        List<WebElement> ZoneOption = selects.get(1).findElements(By.cssSelector("option"));
         List<String> tmp = new ArrayList<>();
         for (int i = 0; i < option.size(); i++) {
             tmp.add(option.get(i).getAttribute("textContent"));
@@ -85,40 +93,13 @@ public class MyThirdTest {
         equalsLists(tmp);
 
         List<String> tmp1 = new ArrayList<>();
-        for (int i = 0; i < Zoneoption.size(); i++) {
-            tmp1.add(Zoneoption.get(i).getAttribute("textContent"));
+        for (int i = 0; i < ZoneOption.size(); i++) {
+            tmp1.add(ZoneOption.get(i).getAttribute("textContent"));
         }
         System.out.println(tmp1.size());
         equalsLists(tmp);
-
     }
 
-    @Test
-    public void checkUS() {
-        loginTest();
-        driver.get("http://localhost/litecart/admin/?app=geo_zones&doc=geo_zones");
-        WebElement element = driver.findElement(By.cssSelector("form[name=geo_zones_form]"));
-        List<WebElement> elements = element.findElements(By.cssSelector("tr.row"));
-        elements.get(1).findElement(By.cssSelector("a")).click();
-        WebElement driverElement = driver.findElement(By.cssSelector("table#table-zones"));
-        List<WebElement> selects = driverElement.findElements(By.cssSelector("select"));
-        List<WebElement> option = selects.get(0).findElements(By.cssSelector("option"));
-        List<WebElement> Zoneoption = selects.get(1).findElements(By.cssSelector("option"));
-        List<String> tmp = new ArrayList<>();
-        for (int i = 0; i < option.size(); i++) {
-            tmp.add(option.get(i).getAttribute("textContent"));
-        }
-        System.out.println(tmp.size());
-        equalsLists(tmp);
-
-        List<String> tmp1 = new ArrayList<>();
-        for (int i = 0; i < Zoneoption.size(); i++) {
-            tmp1.add(Zoneoption.get(i).getAttribute("textContent"));
-        }
-        System.out.println(tmp1.size());
-        equalsLists(tmp);
-
-    }
 
     //<editor-fold defaultstate="collapsed" desc="Дополнительные методы">
     private List<WebElement> findElements() {
