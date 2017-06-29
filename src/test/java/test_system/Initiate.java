@@ -16,15 +16,9 @@ import java.util.List;
  * Created by malinovskiyv on 29.06.2017.
  */
 public class Initiate {
+    protected final Selectors selectors = new Selectors();
     protected WebDriver driver;
     protected WebDriverWait wait;
-    protected String xpathExpression;
-    protected String xpathExpression1;
-    protected String selector;
-    protected String selector1;
-    protected String selector11;
-    protected String selector2;
-    protected String selector3;
     private Select select;
 
     @Before
@@ -57,6 +51,19 @@ public class Initiate {
 
     protected void waitUntilFind(String s, String selector) {
         wait.until(ExpectedConditions.attributeContains(driver.findElement(By.cssSelector(selector)), "innerText", s));
+    }
+
+    protected void addXPathParameters() {
+        selectors.formRemove = "//*[@id='box-checkout-cart']/div/ul/li/form";
+        selectors.itemRemove = ".//form[@name='cart_form']//button[@name='remove_cart_item']";
+    }
+
+    protected void addParameters() {
+        selectors.button = "button[name=add_cart_product]";
+        selectors.itemFound = "#box-most-popular > div > ul > li:nth-child(1)";
+        selectors.buyNow = "form[name=buy_now_form]>table>tbody>tr";
+        selectors.counter = "#cart > a.content > span.quantity";
+        selectors.item = "#box-product > div.content > div.information > div.buy_now > form > table > tbody > tr:nth-child(1) > td > select";
     }
 
     protected class FindersForRemove {

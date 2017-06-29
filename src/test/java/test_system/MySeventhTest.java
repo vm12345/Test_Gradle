@@ -19,20 +19,15 @@ public class MySeventhTest extends Initiate {
         int usersValue = 10;
         for (int i = 1; i < usersValue; i++) {
             String s = String.valueOf(i);
-            selector = "button[name=add_cart_product]";
-            selector1 = "#box-most-popular > div > ul > li:nth-child(1)";
-            selector11 = "form[name=buy_now_form]>table>tbody>tr";
-            selector2 = "#cart > a.content > span.quantity";
-            selector3 = "#box-product > div.content > div.information > div.buy_now > form > table > tbody > tr:nth-child(1) > td > select";
-            addElementAndCheck(s, selector, selector1, selector11, selector2, selector3);
+            addParameters();
+            addElementAndCheck(s, selectors.button, selectors.itemFound, selectors.buyNow, selectors.counter, selectors.item);
         }
 //        удалить объекты
         getAddress("http://localhost/litecart/");
         for (int i = 1; i < usersValue; i++) {
             url = "http://localhost/litecart/en/checkout";
-            xpathExpression = "//*[@id='box-checkout-cart']/div/ul/li/form";
-            xpathExpression1 = ".//form[@name='cart_form']//button[@name='remove_cart_item']";
-            checkRemoved(url, xpathExpression, xpathExpression1);
+            addXPathParameters();
+            checkRemoved(url, selectors.formRemove, selectors.itemRemove);
         }
     }
 
