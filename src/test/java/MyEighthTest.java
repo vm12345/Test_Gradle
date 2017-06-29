@@ -1,6 +1,5 @@
 import org.junit.After;
 import org.junit.Before;
-import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -21,7 +20,6 @@ public class MyEighthTest {
         wait = new WebDriverWait(driver, 20);
     }
 
-    @Test
     public void checkLinks() {
         loginTest();
         driver.get("http://localhost/litecart/admin/?app=countries&doc=edit_country&country_code=AF");

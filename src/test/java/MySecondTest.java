@@ -1,7 +1,6 @@
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
-import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -21,7 +20,6 @@ public class MySecondTest {
         driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
     }
 
-    @Test
     public void loginTest() {
         driver.get("http://localhost/litecart/admin");
         driver.findElement(By.cssSelector("input[name=username]")).sendKeys("admin");
@@ -29,7 +27,6 @@ public class MySecondTest {
         driver.findElement(By.cssSelector("button[name=login]")).click();
     }
 
-    @Test
     public void checkMenu() {
         loginTest();
         List<WebElement> elements = driver.findElements(By.xpath("//ul[@id='box-apps-menu']//li[@id='app-']"));
@@ -52,7 +49,6 @@ public class MySecondTest {
         }
     }
 
-    @Test
     public void checkStickers() {
         driver.get("http://localhost/litecart/en/");
         List<WebElement> elements = driver.findElements(By.cssSelector("li.product"));

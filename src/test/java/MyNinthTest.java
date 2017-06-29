@@ -1,7 +1,6 @@
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
-import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -23,7 +22,6 @@ public class MyNinthTest {
         wait = new WebDriverWait(driver, 20);
     }
 
-    @Test
     public void checkLogs() {
         loginTest();
         driver.get("http://localhost/litecart/admin/?app=catalog&doc=catalog&category_id=1");

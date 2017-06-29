@@ -54,7 +54,7 @@ public class MyFifthTest {
         email = UUID.randomUUID().toString() + "@gmail.com";
         element.findElement(By.cssSelector("input[name=email]")).sendKeys(email);
         double floor = Math.floor(Math.random() * 1000000000);
-        element.findElement(By.cssSelector("input[name=phone")).sendKeys("+7" + (int) floor);
+        element.findElement(By.cssSelector("input[name=phone]")).sendKeys("+7" + (int) floor);
         element.findElement(By.cssSelector("input[name=password]")).sendKeys(randString);
         element.findElement(By.cssSelector("input[name=confirmed_password]")).sendKeys(randString);
         WebElement button = element.findElement(By.cssSelector("button"));

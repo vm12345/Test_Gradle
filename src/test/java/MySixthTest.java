@@ -1,6 +1,5 @@
 import org.junit.After;
 import org.junit.Before;
-import org.junit.Test;
 import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
@@ -29,7 +28,7 @@ public class MySixthTest {
         wait = new WebDriverWait(driver, 10);
     }
 
-    @Test
+
     public void checkGoodiesFromAdmin() {
         jse = (JavascriptExecutor) driver;
         loginTest();
