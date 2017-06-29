@@ -18,6 +18,13 @@ import java.util.List;
 public class Initiate {
     protected WebDriver driver;
     protected WebDriverWait wait;
+    protected String xpathExpression;
+    protected String xpathExpression1;
+    protected String selector;
+    protected String selector1;
+    protected String selector11;
+    protected String selector2;
+    protected String selector3;
     private Select select;
 
     @Before
@@ -41,15 +48,15 @@ public class Initiate {
         button.click();
     }
 
-    protected void SelectAndClick() {
-        WebElement element = driver.findElement(By.cssSelector("#box-product > div.content > div.information > div.buy_now > form > table > tbody > tr:nth-child(1) > td > select"));
+    protected void SelectAndClick(String selector) {
+        WebElement element = driver.findElement(By.cssSelector(selector));
 
         select = new Select(element);
         select.selectByIndex(1);
     }
 
-    protected void waitUntilFind(String s) {
-        wait.until(ExpectedConditions.attributeContains(driver.findElement(By.cssSelector("#cart > a.content > span.quantity")), "innerText", s));
+    protected void waitUntilFind(String s, String selector) {
+        wait.until(ExpectedConditions.attributeContains(driver.findElement(By.cssSelector(selector)), "innerText", s));
     }
 
     protected class FindersForRemove {
@@ -64,18 +71,18 @@ public class Initiate {
             return elements;
         }
 
-        public MySeventhTest.FindersForRemove invoke() {
-            until = Initiate.this.wait.until(driver -> driver.findElements(By.xpath("//*[@id='box-checkout-cart']/div/ul/li/form")));
-            elements = Initiate.this.driver.findElements(By.xpath(".//form[@name='cart_form']//button[@name='remove_cart_item']"));
+        public MySeventhTest.FindersForRemove invoke(String xpathExpression, String xpathExpression1) {
+            until = Initiate.this.wait.until(driver -> driver.findElements(By.xpath(xpathExpression)));
+            elements = Initiate.this.driver.findElements(By.xpath(xpathExpression1));
             return this;
         }
     }
 
     protected class FindersForCart {
-        public List<WebElement> invoke() {
-            WebElement element = Initiate.this.driver.findElement(By.cssSelector("#box-most-popular > div > ul > li:nth-child(1)"));
+        public List<WebElement> invoke(String selector, String selector1) {
+            WebElement element = Initiate.this.driver.findElement(By.cssSelector(selector));
             element.click();
-            return Initiate.this.wait.until(driver1 -> Initiate.this.driver.findElements(By.cssSelector("form[name=buy_now_form]>table>tbody>tr")));
+            return Initiate.this.wait.until(driver1 -> Initiate.this.driver.findElements(By.cssSelector(selector1)));
         }
     }
 }
