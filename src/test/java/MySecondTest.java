@@ -46,6 +46,9 @@ public class MySecondTest {
         for (int i = 0; i < webElements.size(); i++) {
             webElements.get(i).click();
             webElements = driver.findElements(By.xpath("//ul[@id='box-apps-menu']//li/ul/li"));
+            WebElement element = driver.findElement(By.xpath("//td[@id='content']/h1"));
+            System.out.println(element.getText());
+            Assert.assertNotNull(element);
         }
     }
 

@@ -67,5 +67,4 @@ public class MySeventhTest {
         driver.close();
         driver = null;
     }
-
 }

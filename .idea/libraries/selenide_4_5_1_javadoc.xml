@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="selenide-4.5.1-javadoc">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/selenide-4.5.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/src/selenide-4.5.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ideaLibSources/selenide-4.5.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

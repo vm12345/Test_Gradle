@@ -54,6 +54,7 @@
     <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-http:9.4.3.v20170317" level="project" />
     <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-util:9.4.3.v20170317" level="project" />
     <orderEntry type="library" name="Gradle: org.eclipse.jetty:jetty-io:9.4.3.v20170317" level="project" />
+    <orderEntry type="library" name="selenide-4.5.1-javadoc" level="project" />
   </component>
   <component name="PackageRequirementsSettings">
     <option name="requirementsPath" value="" />
