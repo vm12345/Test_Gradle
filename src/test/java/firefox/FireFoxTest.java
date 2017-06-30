@@ -38,7 +38,7 @@ public class FireFoxTest {
         String color = element5.getCssValue("color");
         String color1 = element6.getCssValue("color");
         System.out.println(element5.getCssValue("text-decoration"));
-        element6.getCssValue("font-weight").contentEquals("bolder");
+        Assert.assertTrue(element6.getCssValue("font-weight").contentEquals("bolder"));
 
         element.findElement(By.cssSelector(".link")).click();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
