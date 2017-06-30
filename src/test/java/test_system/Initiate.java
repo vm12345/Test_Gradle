@@ -19,6 +19,7 @@ public class Initiate {
     protected final Selectors selectors = new Selectors();
     protected WebDriver driver;
     protected WebDriverWait wait;
+    protected String url;
     private Select select;
 
     @Before
@@ -64,6 +65,14 @@ public class Initiate {
         selectors.buyNow = "form[name=buy_now_form]>table>tbody>tr";
         selectors.counter = "#cart > a.content > span.quantity";
         selectors.item = "#box-product > div.content > div.information > div.buy_now > form > table > tbody > tr:nth-child(1) > td > select";
+    }
+
+    protected void getMainPage() {
+        getAddress("http://localhost/litecart/");
+    }
+
+    protected void getURL() {
+        url = "http://localhost/litecart/en/checkout";
     }
 
     protected class FindersForRemove {

@@ -11,8 +11,6 @@ import java.util.List;
  */
 public class MySeventhTest extends Initiate {
 
-    private String url;
-
     @Test
     public void checkCart() {
 //        добавить объекты
@@ -23,13 +21,14 @@ public class MySeventhTest extends Initiate {
             addElementAndCheck(s, selectors.button, selectors.itemFound, selectors.buyNow, selectors.counter, selectors.item);
         }
 //        удалить объекты
-        getAddress("http://localhost/litecart/");
+        getMainPage();
         for (int i = 1; i < usersValue; i++) {
-            url = "http://localhost/litecart/en/checkout";
+            getURL();
             addXPathParameters();
             checkRemoved(url, selectors.formRemove, selectors.itemRemove);
         }
     }
+
 
     private void checkRemoved(String url, String xpathExpression, String xpathExpression1) {
         getAddress(url);
@@ -42,7 +41,7 @@ public class MySeventhTest extends Initiate {
     }
 
     private void addElementAndCheck(String s, String selector, String selector1, String selector11, String selector2, String selector3) {
-        getAddress("http://localhost/litecart/");
+        getMainPage();
         List<WebElement> elements = new Initiate.FindersForCart().invoke(selector1, selector11);
         if (elements.size() > 1) {
             SelectAndClick(selector3);
