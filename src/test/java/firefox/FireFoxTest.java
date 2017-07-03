@@ -37,8 +37,14 @@ public class FireFoxTest {
         String textContent = element4.getAttribute("textContent");
         String color = element5.getCssValue("color");
         String color1 = element6.getCssValue("color");
-        System.out.println(element5.getCssValue("text-decoration"));
-        Assert.assertTrue(element6.getCssValue("font-weight").contentEquals("bolder"));
+
+        Assert.assertTrue(element5.getCssValue("text-decoration-line").contentEquals("line-through"));
+        Assert.assertTrue(element5.getCssValue("font-weight").contentEquals("normal"));
+        Assert.assertEquals(element5.getCssValue("font-size"),"14.4px");
+        Assert.assertTrue(element6.getCssValue("font-weight").contentEquals("bold"));
+        Assert.assertTrue(element6.getCssValue("text-decoration-style").contentEquals("solid"));
+        Assert.assertEquals(element6.getCssValue("font-size"), "18px");
+
 
         element.findElement(By.cssSelector(".link")).click();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -48,11 +54,21 @@ public class FireFoxTest {
         String textContent1 = element1.getAttribute("textContent");
         String color2 = element2.getCssValue("color");
         String color3 = element3.getCssValue("color");
-        System.out.println(element2.getCssValue("text-decoration"));
+
+        Assert.assertTrue(element2.getCssValue("text-decoration-line").contentEquals("line-through"));
+        Assert.assertTrue(element2.getCssValue("font-weight").contentEquals("normal"));
+        Assert.assertEquals(element2.getCssValue("font-size"), "16px");
+        Assert.assertTrue(element3.getCssValue("font-weight").contentEquals("bold"));
         Assert.assertTrue(element3.getCssValue("text-decoration-style").contentEquals("solid"));
+        Assert.assertEquals(element3.getCssValue("font-size"), "22px");
         Assert.assertEquals(textContent, textContent1);
         Assert.assertNotEquals(color, color2);
         Assert.assertEquals(color1, color3);
+        Assert.assertTrue(color.contentEquals("rgba(119, 119, 119, 1)"));
+        Assert.assertTrue(color1.contentEquals("rgba(204, 0, 0, 1)"));
+        Assert.assertTrue(color2.contentEquals("rgba(102, 102, 102, 1)"));
+        Assert.assertTrue(color3.contentEquals("rgba(204, 0, 0, 1)"));
+
     }
 
 
